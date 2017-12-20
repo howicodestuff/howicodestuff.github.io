@@ -19,11 +19,12 @@ int main() {
 }
 {% endhighlight %}
 
-...C is powerful and I love it, but very complicated if you want to do some simple things.
+... C is powerful and I love it, but very complicated if you want to do some simple things.
 
 Anyway.
 
 So, you may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.
+
 I love building software and learning new things. I'm interested in web application development, machine learning, systems programming, Linux and Open Source Software.
 
 In this blog, I will be documenting my discovery of problems and their solutions, the process of writting code and building stuff, as well as development tools and setting our environment up for that.
@@ -31,4 +32,5 @@ In this blog, I will be documenting my discovery of problems and their solutions
 I hope to see you again next time!
 
 [Github @czonios](https://github.com/czonios)
+
 [Portfolio](https://czonios.github.io)
