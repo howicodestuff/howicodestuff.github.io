@@ -1,5 +1,4 @@
 remote_theme: rosario/kasper
-
 name: How I Code Stuff
 description: Walk through coding with me
 meta_description: "How I Code Stuff Blog - Walk through coding with me!"
@@ -13,5 +12,5 @@ domain_name: 'https://howicodestuff.github.io'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'https://howicodestuff.github.io/blog'
-author:         'Christos Zonios'
+url: 'https://howicodestuff.github.io/blog'
+author: 'Christos Zonios'
