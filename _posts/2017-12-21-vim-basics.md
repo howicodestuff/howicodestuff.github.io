@@ -3,7 +3,9 @@ layout: post
 title: "Vim: Basic Usage"
 date: 2017-12-21 13:50:00
 categories: Development Tools
+excerpt: "Vim (Vi IMproved) is a renewed edition of Vi, which provides functionality unmatched by any other text editor. Let's check out how it works!"
 ---
+
 
 1. [Introduction](#intro)
 2. [Why would I use Vim?](#why)

@@ -9,7 +9,7 @@ logo: false
 paginate: 15
 baseurl: '/'
 domain_name: 'https://howicodestuff.github.io'
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-github-metadata]
 
 # Details for the RSS feed generator
 url: 'https://howicodestuff.github.io/blog'

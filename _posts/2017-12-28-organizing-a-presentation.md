@@ -1,6 +1,13 @@
-# Organizing a Successful Presentation of a Coding Subject/Project
+---
+layout: post
+title:  "Organizing a Coding Project/Subject Presentation"
+date:   2017-12-28 19:50:00
+categories: General
+excerpt: "Oftentimes, we bring to life an interesting idea or an innovative implementation. However, the hidden work is in trying to coordinate and market that idea so that it makes the maximum impact possible."
+---
 
-Oftentimes, we bring to life an interesting idea or an innovative implementation. However, that is only half the work, I would say the fun half. The other half involves trying to coordinate and market that idea so that it makes the maximum impact possible. This, according to me, and most likely you too, is the half you have to grind.
+
+Oftentimes, we bring to life an interesting idea or an innovative implementation. However, that is only half the work, I would say the fun half. The other half involves trying to coordinate and market that idea so that it makes the maximum impact possible. This is the half you have to grind.
 
 In this article we are only going to touch the subject of presenting that idea in a conference or seminar. For simplicity, I'm going to assume you have a project you want to present. If instead you want to do a seminar on a more abstract subject (MVCs for example, or even how to use a particular MVC) then you can still follow these steps.
 

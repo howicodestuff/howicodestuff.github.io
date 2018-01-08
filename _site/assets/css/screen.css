@@ -481,6 +481,14 @@ margin on the iframe, cause it breaks stuff. */
     overflow: hidden;
 }
 
+.main-header a.about {
+    color: rgba(255,255,255,0.7);
+}
+
+.main-header a.about:hover {
+    color: #fff;
+}
+
 .main-header .inner {
     width: 80%;
 }

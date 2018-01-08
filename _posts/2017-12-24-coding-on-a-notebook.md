@@ -3,6 +3,7 @@ layout: post
 title:  "Coding On The Go"
 date:   2017-12-24 20:00:00
 categories: General Development Tools
+excerpt: "There are a million reasons why you would need to code on the go. In this article, we'll dive mostly into the 'how'."
 ---
 
 Coding on the go - the title is pretty self-explanatory, but my motives for writing this article not as much. Let's dive in to why before going in to how.
