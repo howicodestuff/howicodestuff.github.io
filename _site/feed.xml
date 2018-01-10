@@ -5,9 +5,9 @@
     <description>Walk through coding with me</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jan 2018 00:04:11 +0200</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2018 00:04:11 +0200</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Wed, 10 Jan 2018 17:57:22 +0200</pubDate>
+    <lastBuildDate>Wed, 10 Jan 2018 17:57:22 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
     
       <item>
         <title>A Roadmap to Machine Learning</title>
@@ -295,13 +295,15 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;p&gt;Launch a terminal, and either locally or after connecting remotely to an SSH session, open some file, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;file.c&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;vim file.c
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim file.c
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If the file does not exist, it is created. If it does, it is opened for editing. Try to enter “22222222”&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;m&quot;&gt;222222222&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;m&quot;&gt;222222222&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You can see that nothing is happening. This is because we are in &lt;strong&gt;comand mode&lt;/strong&gt;. To change the file, we can press &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;. This will put us in &lt;strong&gt;insert mode&lt;/strong&gt;.&lt;/p&gt;
 
@@ -316,8 +318,9 @@ After we make any changes we want, we can exit from insert mode by pressing the 
 
 &lt;p&gt;To do a search for something, from the command mode, we press &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; and enter the string or regular expression we want to search for.&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/search&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;phrase
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/search&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;phrase
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If there are any results, we can press &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; to go to the next result and &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; to go to the previous one.&lt;/p&gt;
 
@@ -328,41 +331,48 @@ After we make any changes we want, we can exit from insert mode by pressing the 
 
 &lt;p&gt;To save the changes we made to the file, we have to go to command mode, and press &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt;. This will bring us over to &lt;strong&gt;last line mode&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Here we can execute bash commands, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;, by putting a &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt; in front of them like so:&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:!&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;ls&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:!&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;ls&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;…but we’ll go into that in a future article. For now, let’s write our changes:&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;To exit Vim, we can give the &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt; command in last line mode:&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Remember how, in the beginning of the article, I talked about chaining commands together? Well, we can save and exit by combining the previous two commands:&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;wq&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;wq&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If we want to exit without saving, Vim is going to whine. We can force quit by entering:&lt;/p&gt;
 
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;a name=&quot;vimtutor&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;learning-more-on-your-own&quot;&gt;Learning More On Your Own&lt;/h3&gt;
 
 &lt;p&gt;Vim comes with an exceptional tool for learning it how to use it, called “Vim Tutor”. It explores navigation by using the home row keys hjkl (which is the best way to navigate in Vim), as well as finding your way around words, sentences, parentheses and many more, as well as going into replace mode, which I haven’t covered in this article. To try it out, type in your terminal:&lt;/p&gt;
 
-&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;vimtutor
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vimtutor
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;a name=&quot;synopsis&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;synopsis&quot;&gt;Synopsis&lt;/h3&gt;

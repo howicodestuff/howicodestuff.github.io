@@ -119,13 +119,15 @@
 
 <p>Launch a terminal, and either locally or after connecting remotely to an SSH session, open some file, for example <code class="highlighter-rouge">file.c</code>:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">vim file.c
-</span></code></pre></div></div>
+<div class="language-console highlighter-rouge"><pre class="highlight"><code>vim file.c
+</code></pre>
+</div>
 
 <p>If the file does not exist, it is created. If it does, it is opened for editing. Try to enter “22222222”</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="m">222222222</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="m">222222222</span>
+</code></pre>
+</div>
 
 <p>You can see that nothing is happening. This is because we are in <strong>comand mode</strong>. To change the file, we can press <code class="highlighter-rouge">i</code>. This will put us in <strong>insert mode</strong>.</p>
 
@@ -140,8 +142,9 @@ After we make any changes we want, we can exit from insert mode by pressing the 
 
 <p>To do a search for something, from the command mode, we press <code class="highlighter-rouge">/</code> and enter the string or regular expression we want to search for.</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/search<span class="p">-</span>phrase
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code>/search<span class="p">-</span>phrase
+</code></pre>
+</div>
 
 <p>If there are any results, we can press <code class="highlighter-rouge">n</code> to go to the next result and <code class="highlighter-rouge">N</code> to go to the previous one.</p>
 
@@ -152,41 +155,48 @@ After we make any changes we want, we can exit from insert mode by pressing the 
 
 <p>To save the changes we made to the file, we have to go to command mode, and press <code class="highlighter-rouge">:</code>. This will bring us over to <strong>last line mode</strong></p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">:</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:</span>
+</code></pre>
+</div>
 
 <p>Here we can execute bash commands, for example <code class="highlighter-rouge">ls</code>, by putting a <code class="highlighter-rouge">!</code> in front of them like so:</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">:!</span><span class="k">ls</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:!</span><span class="k">ls</span>
+</code></pre>
+</div>
 
 <p>…but we’ll go into that in a future article. For now, let’s write our changes:</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">:</span><span class="k">w</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:</span><span class="k">w</span>
+</code></pre>
+</div>
 
 <p>To exit Vim, we can give the <code class="highlighter-rouge">q</code> command in last line mode:</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">:</span><span class="k">q</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:</span><span class="k">q</span>
+</code></pre>
+</div>
 
 <p>Remember how, in the beginning of the article, I talked about chaining commands together? Well, we can save and exit by combining the previous two commands:</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">:</span><span class="k">wq</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:</span><span class="k">wq</span>
+</code></pre>
+</div>
 
 <p>If we want to exit without saving, Vim is going to whine. We can force quit by entering:</p>
 
-<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">:</span><span class="k">q</span><span class="p">!</span>
-</code></pre></div></div>
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:</span><span class="k">q</span><span class="p">!</span>
+</code></pre>
+</div>
 
 <p><a name="vimtutor"></a></p>
 <h3 id="learning-more-on-your-own">Learning More On Your Own</h3>
 
 <p>Vim comes with an exceptional tool for learning it how to use it, called “Vim Tutor”. It explores navigation by using the home row keys hjkl (which is the best way to navigate in Vim), as well as finding your way around words, sentences, parentheses and many more, as well as going into replace mode, which I haven’t covered in this article. To try it out, type in your terminal:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">vimtutor
-</span></code></pre></div></div>
+<div class="language-console highlighter-rouge"><pre class="highlight"><code>vimtutor
+</code></pre>
+</div>
 
 <p><a name="synopsis"></a></p>
 <h3 id="synopsis">Synopsis</h3>
