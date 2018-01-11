@@ -757,7 +757,14 @@ body:not(.post-template) .post-title {
 }
 
 .post-title a {
+    text-align: center;
     text-decoration: none;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
 }
 
 .post-excerpt p {
