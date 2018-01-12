@@ -7,8 +7,8 @@ post_class: post-template
 
 <header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
-        <a class="back-button icon-arrow-left" href="{{ site.baseurl | relative_url }}">Home</a>
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl | relative_url }}feed.xml">Subscribe</a>
+        <a class="back-button icon-arrow-left" href="{{site.baseurl}}">Home</a>
+        <a class="subscribe-button icon-feed" href="{{site.baseurl}}feed.xml">Subscribe</a>
     </nav>
 </header>
 
@@ -72,7 +72,8 @@ post_class: post-template
                     <h4> {{ site.author }} </h4>
                     <!-- Author Bio -->
                     <p>
-                        Here goes the author description. You might want to place some links too in here
+						Christos is a software/web developer and student of Computer Science. He is interested in application development, machine learning, systems programming, Linux, FOSS, IoT and more.
+						<!--Add links here -->
                     </p>
                 </section>
             {% endif %}

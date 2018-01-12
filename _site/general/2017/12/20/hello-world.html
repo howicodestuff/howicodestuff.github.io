@@ -19,8 +19,8 @@
 </head>
 <body class="home-template">
 
-    <header class="main-header post-head no-cover">
-    <nav class="main-nav  clearfix">
+    <header class="main-header post-head " style="background-image: url(/assets/images/post-images/hello-world/cover.png) ">
+    <nav class="main-nav  overlay  clearfix">
         <a class="back-button icon-arrow-left" href="/">Home</a>
         <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
     </nav>
@@ -60,6 +60,8 @@
         <section class="post-content">
             <p>This is my first post. I’ve decided to introduce myself and present what I’m going to talk about in this blog.</p>
 
+<p><img src="/assets/images/profile.png" alt="This is me" /><em>a cartoon depiction of my face when I’m trying to figure something out</em></p>
+
 <figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;stdio.h&gt;
 </span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
@@ -70,15 +72,19 @@
   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>… C is powerful and I love it, but very complicated if you want to do some simple things.</p>
+<p>… C is powerful and I love it, but very complicated if you want to do some simple things. It’s so much easier in Python:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">name</span> <span class="o">=</span> <span class="s">"Christos"</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"Hello World! I'm "</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"Welcome to my blog!"</span><span class="p">)</span></code></pre></figure>
 
 <p>Anyway.</p>
 
-<p>So, you may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.</p>
+<p>You may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.</p>
 
 <p>I love building software and learning new things. I’m interested in web application development, machine learning, systems programming, Linux and Open Source Software.</p>
 
-<p>In this blog, I will be documenting my discovery of problems and their solutions, the process of writting code and building stuff, as well as development tools and setting our environment up for that.</p>
+<p>In this blog, I will be documenting my discovery of problems and their solutions, the process of writing code and building stuff, as well as development tools and setting our environment up for that.</p>
 
 <p>I hope to see you again next time!</p>
 
@@ -102,7 +108,8 @@
                     <h4> Christos Zonios </h4>
                     <!-- Author Bio -->
                     <p>
-                        Here goes the author description. You might want to place some links too in here
+						Christos is a software/web developer and student of Computer Science. He is interested in application development, machine learning, systems programming, Linux, FOSS, IoT and more.
+						<!--Add links here -->
                     </p>
                 </section>
             
@@ -136,10 +143,7 @@
     <footer class="site-footer clearfix">
       <section class="copyright">
         <a href="/">How I Code Stuff</a> &copy; 
-              2017 &bull; All rights reserved.
-      </section>
-      <section class="poweredby">Made with Jekyll using 
-        <a href="http://github.com/rosario/kasper">Kasper theme</a>
+              2018 &bull; All rights reserved.
       </section>
     </footer>
     

@@ -481,8 +481,23 @@ margin on the iframe, cause it breaks stuff. */
     overflow: hidden;
 }
 
+.main-header a.about {
+    color: rgba(255,255,255,0.7);
+}
+
+.main-header a.about:hover {
+    color: #fff;
+}
+
 .main-header .inner {
     width: 80%;
+}
+
+.main-header .inner .logo {
+    width: 12vw;
+    min-width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .main-nav {
@@ -749,7 +764,14 @@ body:not(.post-template) .post-title {
 }
 
 .post-title a {
+    text-align: center;
     text-decoration: none;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
 }
 
 .post-excerpt p {
@@ -1350,6 +1372,13 @@ body:not(.post-template) .post-title {
         padding: 15% 0;
     }
 
+    .main-header .inner .logo {
+        float: none;
+        width: 15vw;
+        min-width: 72px;
+        height: auto;
+    }
+
     .scroll-down,
     .home-template .main-header:after { display: none; }
 
@@ -1459,6 +1488,13 @@ body:not(.post-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40%;
+    }
+
+    .main-header .inner .logo {
+        float: none;
+        width: 15vw;
+        min-width: 56px;
+        height: auto;
     }
 
     .no-cover.main-header {

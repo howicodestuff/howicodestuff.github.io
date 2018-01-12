@@ -1,17 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>How I Code Stuff</title>
     <description>Walk through coding with me</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Dec 2017 22:20:37 +0200</pubDate>
-    <lastBuildDate>Wed, 20 Dec 2017 22:20:37 +0200</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Fri, 12 Jan 2018 15:00:45 +0200</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 15:00:45 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>A Roadmap to Machine Learning</title>
+        <description>&lt;p&gt;Up until a point in my life, I was learning stuff left and right aimlessly, and leaving the knowledge at an unfinished, quite frankly unusable level.
+I changed that when I started learning web development. I found enough resources to create a plan, a roadmap of stuff I’d have to learn in order to become a real Web Developer.
+That roadmap changed quite a bit according to new technologies I discovered, but ultimately having a clear plan worked wonders for me.&lt;/p&gt;
+
+&lt;p&gt;Last year, after meeting a lot of academics and talking about machine learning with them, I became fascinated with it. So much so, that I decided to start learning it, alongside my ever-evolving web application development skills.&lt;/p&gt;
+
+&lt;p&gt;I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning &lt;em&gt;-and it seems that a lot of major companies are putting them out-&lt;/em&gt;, I found not a single clear path on how to tackle learning it.&lt;/p&gt;
+
+&lt;p&gt;So I did some research, talked to an &lt;a href=&quot;ispscientist.wordpress.com&quot;&gt;expert in the field&lt;/a&gt; about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it’s extremely easy to learn. You can get through this list without spending a dime, and it’s focused on a hands-on approach of directly applying what you learn.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;roadmap-to-machine-learning&quot;&gt;Roadmap to Machine Learning&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-0-prerequisites&quot;&gt;Step 0: Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;You can get around using machine learning libraries and doing some data science even if you don’t have a strong foundation in math, however you probably won’t get very far without it. If you don’t, this roadmap includes a couple links to math courses when you’ll actually need them later on. By the end, you should be familiar with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Calculus (vectors, integration, finding maxima/minima of a function)&lt;/li&gt;
+  &lt;li&gt;Linear Algebra (matrices, matrix multiplication, vector spaces)&lt;/li&gt;
+  &lt;li&gt;Statistics (distributions, standard deviations, probability density)&lt;/li&gt;
+  &lt;li&gt;Python (not math, but a prerequisite nonetheless)
+    &lt;ul&gt;
+      &lt;li&gt;You can use other languages but Python is the easiest to learn. Below are two great, free courses.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/introduction-to-python--ud1110&quot;&gt;Introduction to Python (Udacity course)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-python&quot;&gt;Learn Python (Codecademy course)&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-1-environment&quot;&gt;Step 1: Environment&lt;/h3&gt;
+
+&lt;p&gt;The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. Strictly speaking, we only need Python (and that’s what I’ve been using until now) but having specialized tools sometimes makes us more productive.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install Python/pip
+    &lt;ul&gt;
+      &lt;li&gt;Python and it’s package manager, pip, are really all we need. The first course uses Python 2.7, but we will probably be better off installing Python 3.x as well later on.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Learn how to use IPython&lt;/li&gt;
+  &lt;li&gt;Learn how Jupyter Notebooks work&lt;/li&gt;
+  &lt;li&gt;Install Anaconda and learn how to use it
+    &lt;ul&gt;
+      &lt;li&gt;Anaconda and it’s package manager, conda, is a distribution of Python specialized for machine learning and data science.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-2-classrom---basics&quot;&gt;Step 2: Classrom - Basics&lt;/h3&gt;
+
+&lt;p&gt;In this step, we’ll focus on learning the basics of machine learning. We need to learn what it is, where it’s used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. I recommend you pick both a book and a course.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-machine-learning--ud120&quot;&gt;Intro to Machine Learning (Udacity course)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This course is the standard one you should follow if you’re not really strong with math.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;em&gt;or&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot;&gt;Andrew Ng’s Course on Machine Learning (Coursera course)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you are already familiar with the math from step 0, then this is the all-around best course since it goes deeper in the math and is taught by one of the field’s best researchers.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;em&gt;course ↑&lt;/em&gt;
+  &lt;br /&gt;
+  &lt;strong&gt;and&lt;/strong&gt;
+  &lt;br /&gt;
+  &lt;em&gt;book ↓&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1787125939&quot;&gt;Python Machine Learning (Book)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This book is not free, however I see it strongly recommended and having bought it, I can say it’s a great practical book and I’ve found that reading a book cover-to-cover on a particular subject gives you in-depth knowledge of aforementioned subject. You’ll also always have it laying around for quick reference.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;em&gt;or&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~hastie/Papers/ESLII.pdf&quot;&gt;Elements of Statistical Learning (Free ebook)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This book is free, it’s from Stanford and it includes a whole lot of information on machine learning. While not as practical as the first one, it goes a lot deeper on the concepts and math behind machine learning and data science.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-3-get-your-feet-wet-project-1&quot;&gt;Step 3: Get Your Feet Wet (Project #1)&lt;/h3&gt;
+
+&lt;p&gt;This will be different for everyone. I recommend going to &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; and using one of their datasets for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-classroom---going-deeper&quot;&gt;Step 4: Classroom - Going Deeper&lt;/h3&gt;
+
+&lt;p&gt;Now that we’ve used machine learning in an actual, real world dataset, without any guidance, we’re ready to get a deeper understanding of data and the math behind machine learning. If you feel the MIT stuff is too hard, you can try some &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;KhanAcademy&lt;/a&gt; courses first.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-data-science--ud359&quot;&gt;Intro to Data Science (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&quot;&gt;Linear Algebra (MIT OpenCourseware)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/&quot;&gt;Single Variable Calculus (MIT OpenCourseware)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-descriptive-statistics--ud827&quot;&gt;Intro to Descriptive Statistics (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-inferential-statistics--ud201&quot;&gt;Intro to Inferential Statistics (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~hastie/Papers/ESLII.pdf&quot;&gt;Elements of Statistical Learning (Free ebook)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I also have this in step 2, but by now you should go deeper in it.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-5-build-a-portfolio&quot;&gt;Step 5: Build a Portfolio&lt;/h3&gt;
+
+&lt;p&gt;We now have a really good understanding of machine learning, but if we don’t practice it, it will only be theoretical. This step is probably the most important part. We have to go ahead and work on Kaggle datasets, join competitions, hopefully find a dataset that’s specifically interesting to us and something we want to learn about - this is actually where we can shine!&lt;/p&gt;
+
+&lt;h3 id=&quot;step-6-one-step-further&quot;&gt;Step 6: One Step Further&lt;/h3&gt;
+
+&lt;p&gt;We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, deep learning. This will have to be a roadmap in itself, but for now, I’ll add a couple of links.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/deep-learning--ud730&quot;&gt;Deep Learning (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.deeplearning.ai/&quot;&gt;Deep Learning (Coursera course by Andrew Ng)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So there you have it. I wish you the best in this journey, and happy new year!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jan 2018 14:30:00 +0200</pubDate>
+        <link>http://localhost:4000//machine-learning/2018/01/12/a-roadmap-to-machine-learning.html</link>
+        <guid isPermaLink="true">http://localhost:4000//machine-learning/2018/01/12/a-roadmap-to-machine-learning.html</guid>
+        
+        
+        <category>Machine-Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Coding On The Go</title>
+        <description>&lt;p&gt;Coding on the go - the title is pretty self-explanatory, but my motives for writing this article not as much. Let’s dive in to why before going in to how.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-would-i-code-on-the-go&quot;&gt;Why would I code on the go?&lt;/h3&gt;
+
+&lt;p&gt;Personally, I have to. My family owns a small hotel in the Greek mountains, and I have to be there for most holidays and some weekends, which means I have to do my dev work and studying there. I also have a lot of free time between classes in university and I prefer to use them instead of having coffee etc.&lt;/p&gt;
+
+&lt;p&gt;Your reasons might be different. You might like travelling, you might have family to visit in another area code or state or even country. Your work itself might involve giving presentations or meeting with clients in different places. This article is not about that. It is about efficiently managing your limited laptop resources and screen real estate.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-ideal-screen-size&quot;&gt;What is the ideal screen size?&lt;/h3&gt;
+
+&lt;p&gt;Well, there’s no one-size-fits-all, or else there wouldn’t be any other choice in laptop screens. This largely depends on how portable you want your setup to be, what kind of work you do, and how willing you are to adjust your normal way of doing things.&lt;/p&gt;
+
+&lt;p&gt;At home, I always have half my screen having a browser open so I can see the application I’m working on, and half my screen having a sophisticated editor or IDE - lately that’s been Visual Studio Code.&lt;/p&gt;
+
+&lt;p&gt;However, that’s just not practical on my old Thinkpad’s 12.1” screen.&lt;/p&gt;
+
+&lt;p&gt;What is practical about it is it’s portability; I can put it in my backpack and take it anywhere, in contrast with a bigger and heavier laptop. If you primarily work from your hotel room, you might be better off having a bigger laptop, preferably with a nice full HD IPS screen. For everyday carry, I strongly suggest going as small as you can in screen size.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-can-i-work-with-such-limited-screen-space&quot;&gt;How can I work with such limited screen space?&lt;/h3&gt;
+
+&lt;p&gt;Workspaces and terminals. I have set up six workspaces on this machine, and every one of them holds something different. I have configured my shortcuts to make switching between them super easy (Super-Z, Super-X, Super-C, Super-V for the four main workspaces; moving around with CTRL-ALT-arrow to use the other ones)&lt;/p&gt;
+
+&lt;p&gt;My first workspace holds the browser. I work in web application development so a browser has to be open 24/7 - and that’s where it lives.&lt;/p&gt;
+
+&lt;p&gt;The second workspace has my text editor. For work, I use Visual Studio Code. For pretty much everything else, I use Vim.&lt;/p&gt;
+
+&lt;p&gt;The Git client lives on the third workspace. I use GitKraken. It has it’s own workspace because I spend a lot of time looking at diffs.&lt;/p&gt;
+
+&lt;p&gt;My fourth workspace has a full screen Terminator session. Terminator is a terminal emulator which supports having multiple terminal windows and easily creating/deleting/moving between them. Here, I can always check out my system resources, do all my npm installs, quick edit a file, move between directories etc.&lt;/p&gt;
+
+&lt;p&gt;The fifth and sixth workspaces are situational; If I need to manage a database, that’s where I’ll have MySQL Workbench. If I need to post a bunch of mock data to an API, I’ll open Postman there. I’ll also open chat clients here if I have to be in constant communication with someone.&lt;/p&gt;
+
+&lt;p&gt;Moving windows around workspaces is bound to CTRL-Shift-(Z-V for main workspaces, or arrow keys for the 2 situational ones).&lt;/p&gt;
+
+&lt;p&gt;On my desktop computer I will still use the split view because it is more convenient. However, the difference is really very small after you get used to moving around workspaces like that.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;You can make a small laptop work really well for you if you set it up right. In my opinion, it’s worth it to invest some time in learning how to work with a smaller screen. Even at home, I find myself opening the laptop lid and doing quick checks or edits on files there instead of my big powerful desktop, and the reason is simple; sometimes, it’s just more convenient to just sit by the firplace or have the laptop sit next to me while I’m cooking, than going to my desk and turning on the desktop computer.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading. I hope to see you again on the next one!&lt;/p&gt;
+
+&lt;p&gt;PS: Pro tip - if you have the space in your luggage, carry with you an HDMI and maybe even a VGA cable. Most hotels or places you’ll visit will have a TV you can turn into a second monitor.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Jan 2018 22:00:00 +0200</pubDate>
+        <link>http://localhost:4000//general/development/tools/2018/01/05/coding-on-the-go.html</link>
+        <guid isPermaLink="true">http://localhost:4000//general/development/tools/2018/01/05/coding-on-the-go.html</guid>
+        
+        
+        <category>General</category>
+        
+        <category>Development</category>
+        
+        <category>Tools</category>
+        
+      </item>
     
       <item>
         <title>Hello World!</title>
         <description>&lt;p&gt;This is my first post. I’ve decided to introduce myself and present what I’m going to talk about in this blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/profile.png&quot; alt=&quot;This is me&quot; /&gt;&lt;em&gt;a cartoon depiction of my face when I’m trying to figure something out&lt;/em&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
 &lt;/span&gt;
@@ -23,15 +223,19 @@
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;… C is powerful and I love it, but very complicated if you want to do some simple things.&lt;/p&gt;
+&lt;p&gt;… C is powerful and I love it, but very complicated if you want to do some simple things. It’s so much easier in Python:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Christos&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World! I'm &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Welcome to my blog!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Anyway.&lt;/p&gt;
 
-&lt;p&gt;So, you may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.&lt;/p&gt;
+&lt;p&gt;You may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.&lt;/p&gt;
 
 &lt;p&gt;I love building software and learning new things. I’m interested in web application development, machine learning, systems programming, Linux and Open Source Software.&lt;/p&gt;
 
-&lt;p&gt;In this blog, I will be documenting my discovery of problems and their solutions, the process of writting code and building stuff, as well as development tools and setting our environment up for that.&lt;/p&gt;
+&lt;p&gt;In this blog, I will be documenting my discovery of problems and their solutions, the process of writing code and building stuff, as well as development tools and setting our environment up for that.&lt;/p&gt;
 
 &lt;p&gt;I hope to see you again next time!&lt;/p&gt;
 

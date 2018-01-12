@@ -3,9 +3,14 @@ layout: post
 title:  "Hello World!"
 date:   2017-12-20 16:40:00
 categories: General
+cover: '/assets/images/post-images/hello-world/cover.png'
+excerpt: "This is my first post. I've decided to introduce myself and present what I'm going to talk about in this blog."
 ---
 
 This is my first post. I've decided to introduce myself and present what I'm going to talk about in this blog.
+
+![This is me](/assets/images/profile.png)*a cartoon depiction of my face when I'm trying to figure something out*
+
 
 {% highlight c %}
 #include <stdio.h>
@@ -19,15 +24,21 @@ int main() {
 }
 {% endhighlight %}
 
-... C is powerful and I love it, but very complicated if you want to do some simple things.
+... C is powerful and I love it, but very complicated if you want to do some simple things. It's so much easier in Python:
+
+{% highlight python %}
+  name = "Christos"
+  print("Hello World! I'm " + name)
+  print("Welcome to my blog!")
+{% endhighlight %}
 
 Anyway.
 
-So, you may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.
+You may have figured this out already, but my name is Christos. I am a student of Computer Science in the University of Ioannina, Greece.
 
 I love building software and learning new things. I'm interested in web application development, machine learning, systems programming, Linux and Open Source Software.
 
-In this blog, I will be documenting my discovery of problems and their solutions, the process of writting code and building stuff, as well as development tools and setting our environment up for that.
+In this blog, I will be documenting my discovery of problems and their solutions, the process of writing code and building stuff, as well as development tools and setting our environment up for that.
 
 I hope to see you again next time!
 

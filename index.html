@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Home
-cover: false
 about: 'https://czonios.github.io'
+logo: './assets/images/logo.png'
+cover: './assets/images/bg.jpg'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -12,14 +13,15 @@ about: 'https://czonios.github.io'
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="{{site.baseurl}}feed.xml">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
+            <img class="logo" src="{{ page.logo }}" alt="Blog logo" />
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ page.about }}'> About me </a> {% endif %}
+                {% if page.about %} <a class="about" href='{{ page.about }}'> About me </a> {% endif %}
             </h2>
         </div>
     </div>
@@ -40,6 +42,7 @@ about: 'https://czonios.github.io'
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
+        <a href="{{ post.url }}"><img class="post-image" src="{{ post.cover }}"></a>
         <section class="post-excerpt">
             {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
         </section>
