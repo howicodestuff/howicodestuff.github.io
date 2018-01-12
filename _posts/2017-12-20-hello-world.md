@@ -10,7 +10,7 @@ excerpt: "This is my first post. I've decided to introduce myself and present wh
 This is my first post. I've decided to introduce myself and present what I'm going to talk about in this blog.
 
 ![This is me](/assets/images/post-images/hello-world/profile.png)
-<p style="text-align: center"><small><i>a cartoon depiction of my face when I'm trying to figure something out</i></small></p>
+<p style="text-align: center"><small><i>a cartoon depiction of my face when I'm trying to figure something out, by Foteini Exarchou.</i></small></p>
 
 
 {% highlight c %}
@@ -37,6 +37,8 @@ You may have figured this out already, but my name is Christos. I am a student o
 I love building software and learning new things. I'm interested in web application development, machine learning, systems programming, Linux and Open Source Software.
 
 In this blog, I will be documenting my discovery of problems and their solutions, the process of writing code and building stuff, as well as development tools and setting our environment up for that.
+
+I would like to thank Fotini Exarchou from [Bipolar Bear](https://bipolarbearcraft.wordpress.com) for the custom-made header image and for the cartoon drawing of my face. Go check her out if you're into graphic design or need something designed/drawn.
 
 I hope to see you again next time!
 
