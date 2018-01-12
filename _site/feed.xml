@@ -5,8 +5,8 @@
     <description>Walk through coding with me</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jan 2018 20:04:41 +0200</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2018 20:04:41 +0200</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 20:06:32 +0200</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 20:06:32 +0200</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
@@ -23,7 +23,7 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/roadmap-to-machine-learning/map2.jpeg&quot; alt=&quot;searching on a map&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;So I did some research, talked to an &lt;a href=&quot;ispscientist.wordpress.com&quot;&gt;expert in the field&lt;/a&gt; about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it’s extremely easy to learn. You can get through this list without spending a dime, and it’s focused on a hands-on approach of directly applying what you learn.&lt;/p&gt;
+&lt;p&gt;So I did some research, talked to an &lt;a href=&quot;https://ispscientist.wordpress.com&quot;&gt;expert in the field&lt;/a&gt; about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it’s extremely easy to learn. You can get through this list without spending a dime, and it’s focused on a hands-on approach of directly applying what you learn.&lt;/p&gt;
 
 &lt;p&gt;Get yourself set up with a notebook, a pen or pencil, and a mandatory cup of coffee, and let’s dive in!&lt;/p&gt;
 
