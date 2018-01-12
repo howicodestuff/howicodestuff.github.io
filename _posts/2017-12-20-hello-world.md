@@ -48,4 +48,4 @@ I hope to see you again next time!
 ![This is me playing guitar](/assets/images/post-images/hello-world/image1.jpg)
 <p style="text-align: center"><small><i>a non-cartoon depiction of my face</i></small></p>
 ![This is me irl](/assets/images/post-images/hello-world/image2.jpg)
-<p style="text-align: center"><small><i>another non-cartoon depiction of my face</i></small></p>a
+<p style="text-align: center"><small><i>another non-cartoon depiction of my face</i></small></p>
