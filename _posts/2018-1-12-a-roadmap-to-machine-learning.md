@@ -87,7 +87,7 @@ In this step, we'll **focus on learning the basics of machine learning**. We nee
 
 ### Step 3: Get Your Feet Wet (Project #1)
 
-This will be different for everyone. **I recommend going to [Kaggle](https://www.kaggle.com/) and using one of their datasets** for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.
+This will be different for everyone. **I recommend going to [Kaggle](https://www.kaggle.com/) and using one of their datasets** for something you want to figure out, using machine learning. Personally, I have a plan for a project using an IoT sensor network that I will reveal in due time.
 
 ### Step 4: Classroom - Going Deeper
 
