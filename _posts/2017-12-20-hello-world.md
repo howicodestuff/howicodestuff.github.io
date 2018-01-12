@@ -3,13 +3,14 @@ layout: post
 title:  "Hello World!"
 date:   2017-12-20 16:40:00
 categories: General
-cover: '/assets/images/post-images/hello-world/cover.png'
+cover: '/assets/images/hello-world.jpg'
 excerpt: "This is my first post. I've decided to introduce myself and present what I'm going to talk about in this blog."
 ---
 
 This is my first post. I've decided to introduce myself and present what I'm going to talk about in this blog.
 
-![This is me](/assets/images/profile.png)*a cartoon depiction of my face when I'm trying to figure something out*
+![This is me](/assets/images/post-images/hello-world/profile.png)
+<p style="text-align: center"><small><i>a cartoon depiction of my face when I'm trying to figure something out</i></small></p>
 
 
 {% highlight c %}
@@ -45,3 +46,9 @@ I hope to see you again next time!
 [Github @czonios](https://github.com/czonios)
 
 [Portfolio](https://czonios.github.io)
+
+**Bonus for making it this far:**
+![This is me playing guitar](/assets/images/post-images/hello-world/image1.jpg)
+<p style="text-align: center"><small><i>a non-cartoon depiction of my face</i></small></p>
+![This is me irl](/assets/images/post-images/hello-world/image2.jpg)
+<p style="text-align: center"><small><i>another non-cartoon depiction of my face</i></small></p>a
