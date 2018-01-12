@@ -58,9 +58,9 @@ cover: './assets/images/bg.jpg'
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
             </time>
-            {% if post.comments %}
-            <a href="https://howicodestuff.github.io{{ post.url }}#disqus_thread">0 Comments</a>
-            {% endif %}
+            {% comment %} {% if post.comments %}
+                <a href="https://howicodestuff.github.io{{ post.url }}#disqus_thread">0 Comments</a>
+            {% endif %} {% endcomment %}
         </footer>
     </article>
 
