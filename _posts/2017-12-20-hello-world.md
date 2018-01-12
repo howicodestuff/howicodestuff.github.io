@@ -18,7 +18,7 @@ This is my first post. I've decided to introduce myself and present what I'm goi
 
 int main() {
   char name[50] = "Christos";
-  printf("Hello World! I'm %s.\nWelcome to my blog!\n", me);
+  printf("Hello World! I'm %s.\nWelcome to my blog!\n", name);
   return 0;
 }
 {% endhighlight %}
