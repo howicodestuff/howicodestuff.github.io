@@ -2,7 +2,7 @@ remote_theme: rosario/kasper
 name: How I Code Stuff
 title: How I Code Stuff
 description: Walk through coding with me
-meta_description: "How I Code Stuff Blog - Walk through coding with me!"
+meta_description: "Web Application Development, Machine Learning, IoT, Linux and fun!"
 
 markdown: kramdown
 highlighter: rouge
