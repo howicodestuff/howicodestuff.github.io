@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2017-12-20 16:40:00
 categories: General
-cover: '/assets/images/post-images/hello-world/cover.png'
+cover: '/assets/images/hello-world.jpg'
 excerpt: "This is my first post. I've decided to introduce myself and present what I'm going to talk about in this blog."
 ---
 
