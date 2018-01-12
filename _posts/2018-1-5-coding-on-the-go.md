@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coding On The Go"
-date:   2017-12-24 20:00:00
+date:   2018-1-5 20:00:00
 categories: General Development Tools
 excerpt: "There are a million reasons why you would need to code on the go. In this article, we'll dive mostly into the 'how'."
 ---

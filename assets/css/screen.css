@@ -493,6 +493,13 @@ margin on the iframe, cause it breaks stuff. */
     width: 80%;
 }
 
+.main-header .inner .logo {
+    width: 12vw;
+    min-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
 .main-nav {
     position: relative;
     padding: 35px 40px;
@@ -1365,6 +1372,13 @@ body:not(.post-template) .post-title {
         padding: 15% 0;
     }
 
+    .main-header .inner .logo {
+        float: none;
+        width: 15vw;
+        min-width: 72px;
+        height: auto;
+    }
+
     .scroll-down,
     .home-template .main-header:after { display: none; }
 
@@ -1474,6 +1488,13 @@ body:not(.post-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40%;
+    }
+
+    .main-header .inner .logo {
+        float: none;
+        width: 15vw;
+        min-width: 56px;
+        height: auto;
     }
 
     .no-cover.main-header {

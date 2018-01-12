@@ -3,7 +3,7 @@ layout: default
 title: Home
 about: 'https://czonios.github.io'
 logo: './assets/images/logo.png'
-cover: './assets/images/header-bg.png'
+cover: './assets/images/bg.jpg'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -17,6 +17,7 @@ cover: './assets/images/header-bg.png'
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
+            <img class="logo" src="{{ page.logo }}" alt="Blog logo" />
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}

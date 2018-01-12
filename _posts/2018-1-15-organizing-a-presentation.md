@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Organizing a Coding Project/Subject Presentation"
-date:   2017-12-28 19:50:00
+date:   2018-1-15 19:50:00
 categories: General
 excerpt: "Oftentimes, we bring to life an interesting idea or an innovative implementation. However, the hidden work is in trying to coordinate and market that idea so that it makes the maximum impact possible."
 ---

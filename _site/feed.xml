@@ -1,66 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>How I Code Stuff</title>
     <description>Walk through coding with me</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jan 2018 20:35:57 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Jan 2018 20:35:57 +0200</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 15:00:45 +0200</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 15:00:45 +0200</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
         <title>A Roadmap to Machine Learning</title>
         <description>&lt;p&gt;Up until a point in my life, I was learning stuff left and right aimlessly, and leaving the knowledge at an unfinished, quite frankly unusable level.
 I changed that when I started learning web development. I found enough resources to create a plan, a roadmap of stuff I’d have to learn in order to become a real Web Developer.
-That roadmap changed quite a bit according to new technologies I discovered, but ultimately worked wonders for me.&lt;/p&gt;
+That roadmap changed quite a bit according to new technologies I discovered, but ultimately having a clear plan worked wonders for me.&lt;/p&gt;
 
-&lt;p&gt;In November 2017, after speaking with a lot of people in academia about it, I decided that machine learning and especially deep learning looks fascinating to me. So much so, that I decided to start learning it, alongside my ever-evolving web development skills (as of writing this, I have experience with front end and slowly moving towards full stack).&lt;/p&gt;
+&lt;p&gt;Last year, after meeting a lot of academics and talking about machine learning with them, I became fascinated with it. So much so, that I decided to start learning it, alongside my ever-evolving web application development skills.&lt;/p&gt;
 
-&lt;p&gt;I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning, I found not a single clear path on how to tackle it.&lt;/p&gt;
+&lt;p&gt;I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning &lt;em&gt;-and it seems that a lot of major companies are putting them out-&lt;/em&gt;, I found not a single clear path on how to tackle learning it.&lt;/p&gt;
 
-&lt;p&gt;So I did some research, and here I present you the roadmap I came up with. It is focused in Python as the programming language, since it has great coverage of machine learning packages and it’s extremely easy to learn. I only include free Udacity course material - I am not affiliated with them in any way, I’ve just found the classes I’ve taken so far to be really well thought of, well structured, and with a lot of hands-on work.&lt;/p&gt;
+&lt;p&gt;So I did some research, talked to an &lt;a href=&quot;ispscientist.wordpress.com&quot;&gt;expert in the field&lt;/a&gt; about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it’s extremely easy to learn. You can get through this list without spending a dime, and it’s focused on a hands-on approach of directly applying what you learn.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;roadmap-to-machine-learning&quot;&gt;Roadmap to Machine Learning&lt;/h2&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-0-prerequisites&quot;&gt;Step 0: Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;You can get around using machine learning libraries and doing some data science even if you don’t have a strong foundation in math, however you probably won’t get very far without it. If you don’t, this roadmap includes a couple links to math courses when you’ll actually need them later on. By the end, you should be familiar with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Calculus (vectors, integration, finding maxima/minima of a function)&lt;/li&gt;
+  &lt;li&gt;Linear Algebra (matrices, matrix multiplication, vector spaces)&lt;/li&gt;
+  &lt;li&gt;Statistics (distributions, standard deviations, probability density)&lt;/li&gt;
+  &lt;li&gt;Python (not math, but a prerequisite nonetheless)
+    &lt;ul&gt;
+      &lt;li&gt;You can use other languages but Python is the easiest to learn. Below are two great, free courses.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/introduction-to-python--ud1110&quot;&gt;Introduction to Python (Udacity course)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-python&quot;&gt;Learn Python (Codecademy course)&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&quot;step-1-environment&quot;&gt;Step 1: Environment&lt;/h3&gt;
 
-&lt;p&gt;The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. Strictly speaking, we only need Python (and that’s what I’ve been using until now) but having specialized tools sometimes makes us more productive. I decided to set up:&lt;/p&gt;
+&lt;p&gt;The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. Strictly speaking, we only need Python (and that’s what I’ve been using until now) but having specialized tools sometimes makes us more productive.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Install Python/pip
-  Python and it’s package manager, pip, are really all we need. The first course uses Python 2.7, but we will probably be better off installing Python 3.x as well later on.&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Python and it’s package manager, pip, are really all we need. The first course uses Python 2.7, but we will probably be better off installing Python 3.x as well later on.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Learn how to use IPython&lt;/li&gt;
   &lt;li&gt;Learn how Jupyter Notebooks work&lt;/li&gt;
   &lt;li&gt;Install Anaconda and learn how to use it
-  Anaconda and it’s package manager, conda, is a distribution of Python specialized for machine learning and data science.&lt;/li&gt;
-  &lt;li&gt;Learn how a good dataset is structured
-  Less of an environment thing, but I’ll leave it here because it should be one of the first things you do.&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Anaconda and it’s package manager, conda, is a distribution of Python specialized for machine learning and data science.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;step-2-classrom---basics&quot;&gt;Step 2: Classrom - Basics&lt;/h3&gt;
 
-&lt;p&gt;In this step, we’ll focus on learning the basics of machine learning. We need to learn what it is, where it’s used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data.&lt;/p&gt;
+&lt;p&gt;In this step, we’ll focus on learning the basics of machine learning. We need to learn what it is, where it’s used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. I recommend you pick both a book and a course.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-machine-learning--ud120&quot;&gt;Intro to Machine Learning (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-machine-learning--ud120&quot;&gt;Intro to Machine Learning (Udacity course)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This course is the standard one you should follow if you’re not really strong with math.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;em&gt;or&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot;&gt;Andrew Ng’s Course on Machine Learning (Coursera course)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you are already familiar with the math from step 0, then this is the all-around best course since it goes deeper in the math and is taught by one of the field’s best researchers.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;em&gt;course ↑&lt;/em&gt;
+  &lt;br /&gt;
+  &lt;strong&gt;and&lt;/strong&gt;
+  &lt;br /&gt;
+  &lt;em&gt;book ↓&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1787125939&quot;&gt;Python Machine Learning (Book)&lt;/a&gt;
-  This book is not free, however I see it strongly recommended and having bought it, I can say it’s a great practical book and I’ve found that reading a book cover-to-cover on a particular subject gives you in-depth knowledge of aforementioned subject. You’ll also always have it laying around for quick reference.&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This book is not free, however I see it strongly recommended and having bought it, I can say it’s a great practical book and I’ve found that reading a book cover-to-cover on a particular subject gives you in-depth knowledge of aforementioned subject. You’ll also always have it laying around for quick reference.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;em&gt;or&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~hastie/Papers/ESLII.pdf&quot;&gt;Elements of Statistical Learning (Free ebook)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This book is free, it’s from Stanford and it includes a whole lot of information on machine learning. While not as practical as the first one, it goes a lot deeper on the concepts and math behind machine learning and data science.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;step-3-get-your-feet-wet-project-1&quot;&gt;Step 3: Get Your Feet Wet (Project #1)&lt;/h3&gt;
 
-&lt;p&gt;This will be different for everyone. I recommend going to &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; and using one of their datasets for something you want to figure out, using machine learning. Personally, I have a plan for a project that I will reveal in due time.&lt;/p&gt;
+&lt;p&gt;This will be different for everyone. I recommend going to &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; and using one of their datasets for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-4-classroom---going-deeper&quot;&gt;Step 4: Classroom - Going Deeper&lt;/h3&gt;
 
-&lt;p&gt;Now that we’ve used machine learning in an actual, real world dataset, without any guidance, we’re ready to get a deeper understanding of data and the math behind machine learning.&lt;/p&gt;
+&lt;p&gt;Now that we’ve used machine learning in an actual, real world dataset, without any guidance, we’re ready to get a deeper understanding of data and the math behind machine learning. If you feel the MIT stuff is too hard, you can try some &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;KhanAcademy&lt;/a&gt; courses first.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-data-science--ud359&quot;&gt;Intro to Data Science (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&quot;&gt;Linear Algebra (MIT OpenCourseware)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/&quot;&gt;Single Variable Calculus (MIT OpenCourseware)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-descriptive-statistics--ud827&quot;&gt;Intro to Descriptive Statistics (Udacity course)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-inferential-statistics--ud201&quot;&gt;Intro to Inferential Statistics (Udacity course)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~hastie/Papers/ESLII.pdf&quot;&gt;Elements of Statistical Learning (Free ebook)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~hastie/Papers/ESLII.pdf&quot;&gt;Elements of Statistical Learning (Free ebook)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I also have this in step 2, but by now you should go deeper in it.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;step-5-build-a-portfolio&quot;&gt;Step 5: Build a Portfolio&lt;/h3&gt;
@@ -69,107 +130,21 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;h3 id=&quot;step-6-one-step-further&quot;&gt;Step 6: One Step Further&lt;/h3&gt;
 
-&lt;p&gt;We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, deep learning. This will have to be a roadmap in itself, but for now, I’ll add this one link - the first part is about going from machine learning to deep learning.&lt;/p&gt;
+&lt;p&gt;We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, deep learning. This will have to be a roadmap in itself, but for now, I’ll add a couple of links.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/deep-learning--ud730&quot;&gt;Deep Learning (Udacity course)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.deeplearning.ai/&quot;&gt;Deep Learning (Coursera course by Andrew Ng)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;So there you have it. I wish you the best in this journey, and happy new year!&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Jan 2018 00:30:00 +0200</pubDate>
-        <link>http://localhost:4000//machine/learning/2018/01/02/a-roadmap-to-machine-learning.html</link>
-        <guid isPermaLink="true">http://localhost:4000//machine/learning/2018/01/02/a-roadmap-to-machine-learning.html</guid>
+        <pubDate>Fri, 12 Jan 2018 14:30:00 +0200</pubDate>
+        <link>http://localhost:4000//machine-learning/2018/01/12/a-roadmap-to-machine-learning.html</link>
+        <guid isPermaLink="true">http://localhost:4000//machine-learning/2018/01/12/a-roadmap-to-machine-learning.html</guid>
         
         
-        <category>Machine</category>
-        
-        <category>Learning</category>
-        
-      </item>
-    
-      <item>
-        <title>Organizing a Coding Project/Subject Presentation</title>
-        <description>&lt;p&gt;Oftentimes, we bring to life an interesting idea or an innovative implementation. However, that is only half the work, I would say the fun half. The other half involves trying to coordinate and market that idea so that it makes the maximum impact possible. This is the half you have to grind.&lt;/p&gt;
-
-&lt;p&gt;In this article we are only going to touch the subject of presenting that idea in a conference or seminar. For simplicity, I’m going to assume you have a project you want to present. If instead you want to do a seminar on a more abstract subject (MVCs for example, or even how to use a particular MVC) then you can still follow these steps.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-can-i-successfully-coordinate-a-presentation&quot;&gt;How Can I Successfully Coordinate a Presentation?&lt;/h2&gt;
-
-&lt;p&gt;It depends. If you are lucky and have a supportive team around you, you should split all of these tasks and divide them between your team and yourself. If not, you’ll have to do them yourself - don’t worry, we’ll break it down into bite-size, manageable tasks.&lt;/p&gt;
-
-&lt;h3 id=&quot;coordination&quot;&gt;Coordination&lt;/h3&gt;
-
-&lt;p&gt;The presentational work has to be coordinated for maximum efficiency. The coordinator should:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;have the main person of the project write a draft article about the project&lt;/li&gt;
-  &lt;li&gt;have that draft sent to a blogger/writer for a website/blog post to be written&lt;/li&gt;
-  &lt;li&gt;have the photographer take applicable photos and videos (around 3x what they think is enough, is enough) or a graphic designer create applicable art&lt;/li&gt;
-  &lt;li&gt;have a person who will be responsible for posting said project’s marketing material on social media (including LinkedIn), and create a plan for them&lt;/li&gt;
-  &lt;li&gt;have someone put up flyers in applicable University/College sites and student hangout places&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And then, if there will be a presentation for the project:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;have the project’s main person(s) create the presentation&lt;/li&gt;
-  &lt;li&gt;pass it through the design expert, and have special logos/charts/art made for it&lt;/li&gt;
-  &lt;li&gt;arrange a place and a time for it and go through the first steps in order to promote it&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;presentation&quot;&gt;Presentation&lt;/h3&gt;
-
-&lt;p&gt;Probably the most important part of marketing the project, sometimes more so than the project itself. The presentation should be clear enough to follow along just by reading the slides after the event, but also compact so as the speaker does not just read the slides but gives a presentation based on them - this also helps with the font being bigger so that people can see it better.&lt;/p&gt;
-
-&lt;p&gt;The speaker should:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;write or at least take part in writing the presentation&lt;/li&gt;
-  &lt;li&gt;have good knowledge of the subject and specific project&lt;/li&gt;
-  &lt;li&gt;rehearse the first drafts of his presentation in the mirror&lt;/li&gt;
-  &lt;li&gt;record video of himself/herself doing the full presentation, and check for details such as turning his/her back too much, speaking too softly, going into deep detail on unnecessary parts of the project, going into stuff that does not directly apply to the message he/she is trying to get across etc.&lt;/li&gt;
-  &lt;li&gt;present it to the team, friends, relatives or anyone who can give back listener feedback&lt;/li&gt;
-  &lt;li&gt;encourage for questions, and video tape it so he/she can respond better to similar questions&lt;/li&gt;
-  &lt;li&gt;make a list of likely to be asked questions and write down answers for them&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;during-the-presentation&quot;&gt;During the presentation&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;introduce yourself first&lt;/li&gt;
-  &lt;li&gt;talk about motivation for the project&lt;/li&gt;
-  &lt;li&gt;social media person should add to Instagram and Facebook story throughout the event, and make 1 post about an hour before the beginning of the presentation about it starting soon&lt;/li&gt;
-  &lt;li&gt;remember to have fun&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;leaving-a-good-last-impression&quot;&gt;Leaving a good last impression&lt;/h3&gt;
-
-&lt;p&gt;At the end of the presentation, the speaker should:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;encourage questions from the crowd&lt;/li&gt;
-  &lt;li&gt;give out contact info so that private questions and inquiries can be asked&lt;/li&gt;
-  &lt;li&gt;hang around the presentation area and be approachable for one-to-one encounters&lt;/li&gt;
-  &lt;li&gt;ideally, have business cards ready&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;follow-up&quot;&gt;Follow up&lt;/h3&gt;
-
-&lt;p&gt;After the event, the slides from the presentation as well as any video and photos of it should be added to a press release about the success of the event. This should go to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;an article or blog post&lt;/li&gt;
-  &lt;li&gt;social media, including LinkedIn&lt;/li&gt;
-  &lt;li&gt;schedule a #TBT for a month, six months and a year after the event&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 28 Dec 2017 21:50:00 +0200</pubDate>
-        <link>http://localhost:4000//general/2017/12/28/organizing-a-presentation.html</link>
-        <guid isPermaLink="true">http://localhost:4000//general/2017/12/28/organizing-a-presentation.html</guid>
-        
-        
-        <category>General</category>
+        <category>Machine-Learning</category>
         
       </item>
     
@@ -219,174 +194,12 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;p&gt;PS: Pro tip - if you have the space in your luggage, carry with you an HDMI and maybe even a VGA cable. Most hotels or places you’ll visit will have a TV you can turn into a second monitor.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Dec 2017 22:00:00 +0200</pubDate>
-        <link>http://localhost:4000//general/development/tools/2017/12/24/coding-on-a-notebook.html</link>
-        <guid isPermaLink="true">http://localhost:4000//general/development/tools/2017/12/24/coding-on-a-notebook.html</guid>
+        <pubDate>Fri, 05 Jan 2018 22:00:00 +0200</pubDate>
+        <link>http://localhost:4000//general/development/tools/2018/01/05/coding-on-the-go.html</link>
+        <guid isPermaLink="true">http://localhost:4000//general/development/tools/2018/01/05/coding-on-the-go.html</guid>
         
         
         <category>General</category>
-        
-        <category>Development</category>
-        
-        <category>Tools</category>
-        
-      </item>
-    
-      <item>
-        <title>Vim: Basic Usage</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#why&quot;&gt;Why would I use Vim?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#open&quot;&gt;Opening a File for Editing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#insert&quot;&gt;Insert Mode&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#search&quot;&gt;Searching&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#exit&quot;&gt;Save and Exit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#vimtutor&quot;&gt;Learning More On Your Own&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#synopsis&quot;&gt;Synopsis&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-
-&lt;p&gt;Open a terminal in any *nix system and type &lt;code class=&quot;highlighter-rouge&quot;&gt;vi&lt;/code&gt;. Chances are you’ll be welcomed by this lightweight but really powerful text editor.&lt;/p&gt;
-
-&lt;p&gt;Vim (Vi IMproved) is a renewed edition of Vi, which provides functionality unmatched by any other text editor - unless, of course, it has a Vim plugin!&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;why&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;why-would-i-use-vim&quot;&gt;Why would I use Vim?&lt;/h3&gt;
-
-&lt;p&gt;There is no generic answer to this question. After all, you’ll be fine never learing how to use Vim at all - you can make do with other tools. For some people however, it’s their most important tool for being as productive as they can be. Some of the reasons to get into Vim are presented below:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Lightweight&lt;/strong&gt;
-    You will be able to use it with any system, file or project, in contrast with resource-heavy text editors like Visual Studio or Atom, and IDEs like Eclipse or Intellij products, which might choke under the pressure of huge files or projects.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;It’s Everywhere&lt;/strong&gt;
-    If you ever get into working with servers, you’ll quickly find out that Vi or Vim are almost always already in the list of installed software.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Poductive&lt;/strong&gt;
-  Vim has the philosophy of a language - it’s commands have verbs, nouns and adjectives which can be chained together in infinite combinations. For example, the command &lt;code class=&quot;highlighter-rouge&quot;&gt;d3w&lt;/code&gt; (delete 3 words) is comprised of 3 different parts. The &lt;code class=&quot;highlighter-rouge&quot;&gt;ci&quot;&lt;/code&gt; command(change inside “) will delete the text inside the “ “ your cursor is in and put you in insert mode so you can write in there. Vim also provides a very useful tree representation for the redo (&lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL+R&lt;/code&gt;) and undo (&lt;code class=&quot;highlighter-rouge&quot;&gt;u&lt;/code&gt; and others)  commands, a multitude of registers for copy (&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; - yank) and cut commands - you can paste from many different clipboards, which arms you with a lot of functionality - and it can execute bash commands and show you their output, which you can optionally insert into your file.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Ergonomic&lt;/strong&gt;
-    Vim’s philosophy distances you from use of the mouse, and encourages movement by using the keyboard, making it faster and healthier for the wrists, eyes and tendons.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Fun&lt;/strong&gt;
-    Vim is just really, really interesting, and everything new you get to learn about it gives you a feeling of satisfaction, in the neverending process of discovering new ways of doing old things faster and better.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;FOSS&lt;/strong&gt;
-    Vim’s licence is GPL-compatible, and anyone can view and contribute to it’s source code. This means that thanks to it’s enormous number of users, it never stops evolving.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Configurable&lt;/strong&gt;
-    You can very easily configure Vim to exactly your liking, more so than any other editor available. It’s very common for each user to have their own config files and copy them to each machine they use. Many of us post our configs online, usually called “dotfiles”.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In this article we won’t get into great detail on Vim’s abilities, but we will explore it’s basic usage for editing a file. Students, web developers, Linux, MacOS and other *Nix users often tend to need it in order to change a remote file or edit a file as administrator.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;open&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;opening-a-file-for-editing&quot;&gt;Opening a File for Editing&lt;/h3&gt;
-
-&lt;p&gt;Launch a terminal, and either locally or after connecting remotely to an SSH session, open some file, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;file.c&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim file.c
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If the file does not exist, it is created. If it does, it is opened for editing. Try to enter “22222222”&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;m&quot;&gt;222222222&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You can see that nothing is happening. This is because we are in &lt;strong&gt;comand mode&lt;/strong&gt;. To change the file, we can press &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;. This will put us in &lt;strong&gt;insert mode&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;insert&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;insert-mode&quot;&gt;Insert Mode&lt;/h3&gt;
-
-&lt;p&gt;We can make changes to the file. For now, navigate with the arrow keys.
-After we make any changes we want, we can exit from insert mode by pressing the &lt;button&gt;ESC&lt;/button&gt; key.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;search&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;searching&quot;&gt;Searching&lt;/h3&gt;
-
-&lt;p&gt;To do a search for something, from the command mode, we press &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; and enter the string or regular expression we want to search for.&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/search&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;phrase
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If there are any results, we can press &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; to go to the next result and &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; to go to the previous one.&lt;/p&gt;
-
-&lt;p&gt;Click on the image to see it in action.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;exit&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;save-and-exit&quot;&gt;Save and Exit&lt;/h3&gt;
-
-&lt;p&gt;To save the changes we made to the file, we have to go to command mode, and press &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt;. This will bring us over to &lt;strong&gt;last line mode&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Here we can execute bash commands, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;, by putting a &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt; in front of them like so:&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:!&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;ls&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;…but we’ll go into that in a future article. For now, let’s write our changes:&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To exit Vim, we can give the &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt; command in last line mode:&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Remember how, in the beginning of the article, I talked about chaining commands together? Well, we can save and exit by combining the previous two commands:&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;wq&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If we want to exit without saving, Vim is going to whine. We can force quit by entering:&lt;/p&gt;
-
-&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a name=&quot;vimtutor&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;learning-more-on-your-own&quot;&gt;Learning More On Your Own&lt;/h3&gt;
-
-&lt;p&gt;Vim comes with an exceptional tool for learning it how to use it, called “Vim Tutor”. It explores navigation by using the home row keys hjkl (which is the best way to navigate in Vim), as well as finding your way around words, sentences, parentheses and many more, as well as going into replace mode, which I haven’t covered in this article. To try it out, type in your terminal:&lt;/p&gt;
-
-&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vimtutor
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a name=&quot;synopsis&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;synopsis&quot;&gt;Synopsis&lt;/h3&gt;
-
-&lt;p&gt;Vim is a really useful tool that provides us with unmatched productivity, ergonomy and above all, is fun to use and configurable to any person’s needs.&lt;/p&gt;
-
-&lt;p&gt;In this article we went through some of it’s basic usage, such as changing text, searching and saving. In the future I will add a series of articles where we can explore Vim’s abilities in depth.&lt;/p&gt;
-
-&lt;p&gt;*&lt;em&gt;I wrote the Greek version of this article for the IEEE University of Ioannina Student Branch. You can check it out &lt;a href=&quot;http://ieeesb.uoi.gr/?p=2237&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Dec 2017 15:50:00 +0200</pubDate>
-        <link>http://localhost:4000//development/tools/2017/12/21/vim-basics.html</link>
-        <guid isPermaLink="true">http://localhost:4000//development/tools/2017/12/21/vim-basics.html</guid>
-        
         
         <category>Development</category>
         
