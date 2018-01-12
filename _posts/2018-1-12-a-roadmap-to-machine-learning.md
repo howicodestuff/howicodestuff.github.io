@@ -4,7 +4,7 @@ title:  "A Roadmap to Machine Learning"
 date:   2018-1-12 12:30:00
 categories: Machine-Learning
 excerpt: "I couldn't find a good roadmap to machine learning, so I did some research and created my own."
-cover: '/assets/images/roadmap-to-machine-learning.jpg'
+cover: '/assets/images/post-images/roadmap-to-machine-learning/roadmap-to-machine-learning.jpg'
 
 ---
 
@@ -12,11 +12,19 @@ Up until a point in my life, I was learning stuff left and right aimlessly, and 
 I changed that when I started learning web development. I found enough resources to create a plan, a roadmap of stuff I'd have to learn in order to become a real Web Developer.
 That roadmap changed quite a bit according to new technologies I discovered, but ultimately having a clear plan worked wonders for me.
 
+![pointing on a map](/assets/images/post-images/roadmap-to-machine-learning/map1.jpg)
+
 Last year, after meeting a lot of academics and talking about machine learning with them, I became fascinated with it. So much so, that I decided to start learning it, alongside my ever-evolving web application development skills.
 
 I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning *-and it seems that a lot of major companies are putting them out-*, I found not a single clear path on how to tackle learning it.
 
+![searching on a map](/assets/images/post-images/roadmap-to-machine-learning/map2.jpeg)
+
 So I did some research, talked to an [expert in the field](ispscientist.wordpress.com) about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it's extremely easy to learn. You can get through this list without spending a dime, and it's focused on a hands-on approach of directly applying what you learn.
+
+Get yourself set up with a notebook, a pen or pencil, and a mandatory cup of coffee, and let's dive in!
+
+![notebook](/assets/images/post-images/roadmap-to-machine-learning/map3.jpg) 
 
 ***
 
@@ -26,7 +34,7 @@ So I did some research, talked to an [expert in the field](ispscientist.wordpres
 
 ### Step 0: Prerequisites
 
-You can get around using machine learning libraries and doing some data science even if you don't have a strong foundation in math, however you probably won't get very far without it. If you don't, this roadmap includes a couple links to math courses when you'll actually need them later on. By the end, you should be familiar with:
+You can get around using machine learning libraries and doing some data science even if you don't have a strong foundation in math, however you probably won't get very far without it. If you don't, this roadmap includes a couple links to math courses when you'll actually need them later on. **By the end, you should be familiar with:**
 
 * Calculus (vectors, integration, finding maxima/minima of a function)
 * Linear Algebra (matrices, matrix multiplication, vector spaces)
@@ -38,7 +46,7 @@ You can get around using machine learning libraries and doing some data science 
 
 ### Step 1: Environment
 
-The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. Strictly speaking, we only need Python (and that's what I've been using until now) but having specialized tools sometimes makes us more productive.
+The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. **Strictly speaking, we only need Python** (and that's what I've been using until now) but having specialized tools sometimes makes us more productive.
 
 * Install Python/pip
     - Python and it's package manager, pip, are really all we need. The first course uses Python 2.7, but we will probably be better off installing Python 3.x as well later on.
@@ -49,7 +57,7 @@ The first thing is to set up our environment so we can actually run the algorith
 
 ### Step 2: Classrom - Basics
 
-In this step, we'll focus on learning the basics of machine learning. We need to learn what it is, where it's used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. I recommend you pick both a book and a course.
+In this step, we'll **focus on learning the basics of machine learning**. We need to learn what it is, where it's used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. **I recommend you pick both a book and a course.**
 
 * [Intro to Machine Learning (Udacity course)](https://www.udacity.com/course/intro-to-machine-learning--ud120)
     - This course is the standard one you should follow if you're not really strong with math.
@@ -76,11 +84,11 @@ In this step, we'll focus on learning the basics of machine learning. We need to
 
 ### Step 3: Get Your Feet Wet (Project #1)
 
-This will be different for everyone. I recommend going to [Kaggle](https://www.kaggle.com/) and using one of their datasets for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.
+This will be different for everyone. **I recommend going to [Kaggle](https://www.kaggle.com/) and using one of their datasets** for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.
 
 ### Step 4: Classroom - Going Deeper
 
-Now that we've used machine learning in an actual, real world dataset, without any guidance, we're ready to get a deeper understanding of data and the math behind machine learning. If you feel the MIT stuff is too hard, you can try some [KhanAcademy](https://www.khanacademy.org/) courses first.
+Now that we've used machine learning in an actual, real world dataset, without any guidance, **we're ready to get a deeper understanding of data and the math behind machine learning.** If you feel the MIT stuff is too hard, you can try some [KhanAcademy](https://www.khanacademy.org/) courses first.
 
 * [Intro to Data Science (Udacity course)](https://www.udacity.com/course/intro-to-data-science--ud359)
 * [Linear Algebra (MIT OpenCourseware)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
@@ -92,11 +100,11 @@ Now that we've used machine learning in an actual, real world dataset, without a
 
 ### Step 5: Build a Portfolio
 
-We now have a really good understanding of machine learning, but if we don't practice it, it will only be theoretical. This step is probably the most important part. We have to go ahead and work on Kaggle datasets, join competitions, hopefully find a dataset that's specifically interesting to us and something we want to learn about - this is actually where we can shine!
+We now have a really good understanding of machine learning, but if we don't practice it, it will only be theoretical. **This step is probably the most important part.** We have to go ahead and work on Kaggle datasets, join competitions, hopefully find a dataset that's specifically interesting to us and something we want to learn about - this is actually where we can shine!
 
 ### Step 6: One Step Further
 
-We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, deep learning. This will have to be a roadmap in itself, but for now, I'll add a couple of links.
+We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, **deep learning**. This will have to be a roadmap in itself, but for now, I'll add a couple of links.
 
 * [Deep Learning (Udacity course)](https://www.udacity.com/course/deep-learning--ud730)
 * [Deep Learning (Coursera course by Andrew Ng)](https://www.deeplearning.ai/)

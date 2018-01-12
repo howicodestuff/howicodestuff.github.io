@@ -5,8 +5,8 @@
     <description>Walk through coding with me</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jan 2018 17:59:20 +0200</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2018 17:59:20 +0200</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 19:10:57 +0200</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 19:10:57 +0200</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
@@ -15,11 +15,19 @@
 I changed that when I started learning web development. I found enough resources to create a plan, a roadmap of stuff I’d have to learn in order to become a real Web Developer.
 That roadmap changed quite a bit according to new technologies I discovered, but ultimately having a clear plan worked wonders for me.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/roadmap-to-machine-learning/map1.jpg&quot; alt=&quot;pointing on a map&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Last year, after meeting a lot of academics and talking about machine learning with them, I became fascinated with it. So much so, that I decided to start learning it, alongside my ever-evolving web application development skills.&lt;/p&gt;
 
 &lt;p&gt;I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning &lt;em&gt;-and it seems that a lot of major companies are putting them out-&lt;/em&gt;, I found not a single clear path on how to tackle learning it.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/roadmap-to-machine-learning/map2.jpeg&quot; alt=&quot;searching on a map&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;So I did some research, talked to an &lt;a href=&quot;ispscientist.wordpress.com&quot;&gt;expert in the field&lt;/a&gt; about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it’s extremely easy to learn. You can get through this list without spending a dime, and it’s focused on a hands-on approach of directly applying what you learn.&lt;/p&gt;
+
+&lt;p&gt;Get yourself set up with a notebook, a pen or pencil, and a mandatory cup of coffee, and let’s dive in!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/roadmap-to-machine-learning/map3.jpg&quot; alt=&quot;notebook&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -29,7 +37,7 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;h3 id=&quot;step-0-prerequisites&quot;&gt;Step 0: Prerequisites&lt;/h3&gt;
 
-&lt;p&gt;You can get around using machine learning libraries and doing some data science even if you don’t have a strong foundation in math, however you probably won’t get very far without it. If you don’t, this roadmap includes a couple links to math courses when you’ll actually need them later on. By the end, you should be familiar with:&lt;/p&gt;
+&lt;p&gt;You can get around using machine learning libraries and doing some data science even if you don’t have a strong foundation in math, however you probably won’t get very far without it. If you don’t, this roadmap includes a couple links to math courses when you’ll actually need them later on. &lt;strong&gt;By the end, you should be familiar with:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Calculus (vectors, integration, finding maxima/minima of a function)&lt;/li&gt;
@@ -49,7 +57,7 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;h3 id=&quot;step-1-environment&quot;&gt;Step 1: Environment&lt;/h3&gt;
 
-&lt;p&gt;The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. Strictly speaking, we only need Python (and that’s what I’ve been using until now) but having specialized tools sometimes makes us more productive.&lt;/p&gt;
+&lt;p&gt;The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. &lt;strong&gt;Strictly speaking, we only need Python&lt;/strong&gt; (and that’s what I’ve been using until now) but having specialized tools sometimes makes us more productive.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Install Python/pip
@@ -68,7 +76,7 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;h3 id=&quot;step-2-classrom---basics&quot;&gt;Step 2: Classrom - Basics&lt;/h3&gt;
 
-&lt;p&gt;In this step, we’ll focus on learning the basics of machine learning. We need to learn what it is, where it’s used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. I recommend you pick both a book and a course.&lt;/p&gt;
+&lt;p&gt;In this step, we’ll &lt;strong&gt;focus on learning the basics of machine learning&lt;/strong&gt;. We need to learn what it is, where it’s used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. &lt;strong&gt;I recommend you pick both a book and a course.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-machine-learning--ud120&quot;&gt;Intro to Machine Learning (Udacity course)&lt;/a&gt;
@@ -105,11 +113,11 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;h3 id=&quot;step-3-get-your-feet-wet-project-1&quot;&gt;Step 3: Get Your Feet Wet (Project #1)&lt;/h3&gt;
 
-&lt;p&gt;This will be different for everyone. I recommend going to &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; and using one of their datasets for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.&lt;/p&gt;
+&lt;p&gt;This will be different for everyone. &lt;strong&gt;I recommend going to &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; and using one of their datasets&lt;/strong&gt; for something you want to figure out, using machine learning. Personally, I have a plan for a project using an ?IoT sensor network that I will reveal in due time.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-4-classroom---going-deeper&quot;&gt;Step 4: Classroom - Going Deeper&lt;/h3&gt;
 
-&lt;p&gt;Now that we’ve used machine learning in an actual, real world dataset, without any guidance, we’re ready to get a deeper understanding of data and the math behind machine learning. If you feel the MIT stuff is too hard, you can try some &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;KhanAcademy&lt;/a&gt; courses first.&lt;/p&gt;
+&lt;p&gt;Now that we’ve used machine learning in an actual, real world dataset, without any guidance, &lt;strong&gt;we’re ready to get a deeper understanding of data and the math behind machine learning.&lt;/strong&gt; If you feel the MIT stuff is too hard, you can try some &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;KhanAcademy&lt;/a&gt; courses first.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/intro-to-data-science--ud359&quot;&gt;Intro to Data Science (Udacity course)&lt;/a&gt;&lt;/li&gt;
@@ -126,11 +134,11 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 
 &lt;h3 id=&quot;step-5-build-a-portfolio&quot;&gt;Step 5: Build a Portfolio&lt;/h3&gt;
 
-&lt;p&gt;We now have a really good understanding of machine learning, but if we don’t practice it, it will only be theoretical. This step is probably the most important part. We have to go ahead and work on Kaggle datasets, join competitions, hopefully find a dataset that’s specifically interesting to us and something we want to learn about - this is actually where we can shine!&lt;/p&gt;
+&lt;p&gt;We now have a really good understanding of machine learning, but if we don’t practice it, it will only be theoretical. &lt;strong&gt;This step is probably the most important part.&lt;/strong&gt; We have to go ahead and work on Kaggle datasets, join competitions, hopefully find a dataset that’s specifically interesting to us and something we want to learn about - this is actually where we can shine!&lt;/p&gt;
 
 &lt;h3 id=&quot;step-6-one-step-further&quot;&gt;Step 6: One Step Further&lt;/h3&gt;
 
-&lt;p&gt;We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, deep learning. This will have to be a roadmap in itself, but for now, I’ll add a couple of links.&lt;/p&gt;
+&lt;p&gt;We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, &lt;strong&gt;deep learning&lt;/strong&gt;. This will have to be a roadmap in itself, but for now, I’ll add a couple of links.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/deep-learning--ud730&quot;&gt;Deep Learning (Udacity course)&lt;/a&gt;&lt;/li&gt;
@@ -153,23 +161,20 @@ That roadmap changed quite a bit according to new technologies I discovered, but
         <description>&lt;p&gt;This is my first post. I’ve decided to introduce myself and present what I’m going to talk about in this blog.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/hello-world/profile.png&quot; alt=&quot;This is me&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;a cartoon depiction of my face when I'm trying to figure something out&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;a cartoon depiction of my face when I'm trying to figure something out, by Foteini Exarchou.&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
 &lt;/span&gt;
 &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;me&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;me&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Christos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World! I'm %s.&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Welcome to my blog!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Christos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World! I'm %s.&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Welcome to my blog!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;… C is powerful and I love it, but very complicated if you want to do some simple things. It’s so much easier in Python:&lt;/p&gt;
+&lt;p&gt;… C is powerful and I love it, but somewhat complicated if you want to do some simple things. It’s so much easier in Python:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Christos&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World! I'm &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Welcome to my blog!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World! I'm &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Welcome to my blog!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Anyway.&lt;/p&gt;
 
@@ -178,6 +183,8 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 &lt;p&gt;I love building software and learning new things. I’m interested in web application development, machine learning, systems programming, Linux and Open Source Software.&lt;/p&gt;
 
 &lt;p&gt;In this blog, I will be documenting my discovery of problems and their solutions, the process of writing code and building stuff, as well as development tools and setting our environment up for that.&lt;/p&gt;
+
+&lt;p&gt;I would like to thank Fotini Exarchou from &lt;a href=&quot;https://bipolarbearcraft.wordpress.com&quot;&gt;Bipolar Bear&lt;/a&gt; for the custom-made header image and for the cartoon drawing of my face. Go check her out if you’re into graphic design or need something designed/drawn.&lt;/p&gt;
 
 &lt;p&gt;I hope to see you again next time!&lt;/p&gt;
 
@@ -190,7 +197,6 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 &lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;a non-cartoon depiction of my face&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/hello-world/image2.jpg&quot; alt=&quot;This is me irl&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;another non-cartoon depiction of my face&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;a&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Dec 2017 18:40:00 +0200</pubDate>
         <link>http://localhost:4000//general/2017/12/20/hello-world.html</link>

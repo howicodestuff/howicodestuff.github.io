@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>How I Code Stuff - Walk through coding with me</title>
-    <meta name="description" content="How I Code Stuff Blog - Walk through coding with me!" />
+    <meta name="description" content="Web Application Development, Machine Learning, IoT, Linux and fun!" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/czonios/czonios.github.io/master/img/icons/preview/chris-cartoon-wide.png" >    
+    <meta property="og:image" content="https://raw.githubusercontent.com/howicodestuff/howicodestuff.github.io/3a3f6310bc72dca3ea5183eba95f394bb639634b/assets/images/preview.png" >    
 
     <!-- favicon -->
     <link rel="icon" type="image/jpeg" href="/assets/images/favicon.jpeg" sizes="16x16">
@@ -24,7 +24,7 @@
 </head>
 <body class="home-template">
 
-    <header class="main-header post-head " style="background-image: url(/assets/images/hello-world.jpg) ">
+    <header class="main-header post-head " style="background-image: url(/assets/images/post-images/hello-world/hello-world.jpg) ">
     <nav class="main-nav  overlay  clearfix">
         <a class="back-button icon-arrow-left" href="https://howicodestuff.github.io">Home</a>
         <a class="subscribe-button icon-feed" href="https://howicodestuff.github.io/feed.xml">Subscribe</a>
@@ -66,23 +66,20 @@
             <p>This is my first post. I’ve decided to introduce myself and present what I’m going to talk about in this blog.</p>
 
 <p><img src="/assets/images/post-images/hello-world/profile.png" alt="This is me" /></p>
-<p style="text-align: center"><small><i>a cartoon depiction of my face when I'm trying to figure something out</i></small></p>
+<p style="text-align: center"><small><i>a cartoon depiction of my face when I'm trying to figure something out, by Foteini Exarchou.</i></small></p>
 
 <figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;stdio.h&gt;
 </span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kt">char</span> <span class="n">name</span><span class="p">[</span><span class="mi">50</span><span class="p">];</span>
-  <span class="kt">char</span> <span class="o">*</span><span class="n">me</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
-  <span class="n">me</span> <span class="o">=</span> <span class="s">"Christos"</span><span class="p">;</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello World! I'm %s.</span><span class="se">\n</span><span class="s">Welcome to my blog!</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">me</span><span class="p">);</span>
+  <span class="kt">char</span> <span class="n">name</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span> <span class="o">=</span> <span class="s">"Christos"</span><span class="p">;</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello World! I'm %s.</span><span class="se">\n</span><span class="s">Welcome to my blog!</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">name</span><span class="p">);</span>
   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>… C is powerful and I love it, but very complicated if you want to do some simple things. It’s so much easier in Python:</p>
+<p>… C is powerful and I love it, but somewhat complicated if you want to do some simple things. It’s so much easier in Python:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">name</span> <span class="o">=</span> <span class="s">"Christos"</span>
-  <span class="k">print</span><span class="p">(</span><span class="s">"Hello World! I'm "</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
-  <span class="k">print</span><span class="p">(</span><span class="s">"Welcome to my blog!"</span><span class="p">)</span></code></pre></figure>
+  <span class="k">print</span><span class="p">(</span><span class="s">"Hello World! I'm "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">Welcome to my blog!"</span><span class="p">)</span></code></pre></figure>
 
 <p>Anyway.</p>
 
@@ -91,6 +88,8 @@
 <p>I love building software and learning new things. I’m interested in web application development, machine learning, systems programming, Linux and Open Source Software.</p>
 
 <p>In this blog, I will be documenting my discovery of problems and their solutions, the process of writing code and building stuff, as well as development tools and setting our environment up for that.</p>
+
+<p>I would like to thank Fotini Exarchou from <a href="https://bipolarbearcraft.wordpress.com">Bipolar Bear</a> for the custom-made header image and for the cartoon drawing of my face. Go check her out if you’re into graphic design or need something designed/drawn.</p>
 
 <p>I hope to see you again next time!</p>
 
@@ -103,7 +102,6 @@
 <p style="text-align: center"><small><i>a non-cartoon depiction of my face</i></small></p>
 <p><img src="/assets/images/post-images/hello-world/image2.jpg" alt="This is me irl" /></p>
 <p style="text-align: center"><small><i>another non-cartoon depiction of my face</i></small></p>
-<p>a</p>
 
         </section>
 
