@@ -19,6 +19,8 @@ Last year, after meeting a lot of academics and talking about machine learning w
 
 I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning *-and it seems that a lot of major companies are putting them out-*, I found not a single clear path on how to tackle learning it.
 
+If you have no idea what machine learning is, check out the [Wikepedia entry](https://en.wikipedia.org/wiki/Machine_learning).
+
 ![searching on a map](/assets/images/post-images/roadmap-to-machine-learning/map2.jpeg)
 
 So I did some research, talked to an [expert in the field](https://ispscientist.wordpress.com) about it, and here I present to you the roadmap I came up with. It is focused on Python as the programming language, since it has a great selection of machine learning packages and libraries, and it's extremely easy to learn. You can get through this list without spending a dime, and it's focused on a hands-on approach of directly applying what you learn.
