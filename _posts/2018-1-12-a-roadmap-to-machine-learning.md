@@ -19,7 +19,7 @@ Last year, after meeting a lot of academics and talking about machine learning w
 
 I looked around and, to my surprise, even though there is a crazy amount of courses and resources available for machine learning *-and it seems that a lot of major companies are putting them out-*, I found not a single clear path on how to tackle learning it.
 
-If you have no idea what machine learning is, check out the [Wikepedia entry](https://en.wikipedia.org/wiki/Machine_learning).
+If you have no idea what machine learning is, check out the [Wikipedia entry](https://en.wikipedia.org/wiki/Machine_learning).
 
 ![searching on a map](/assets/images/post-images/roadmap-to-machine-learning/map2.jpeg)
 
