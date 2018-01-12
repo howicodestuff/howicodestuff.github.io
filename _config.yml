@@ -8,6 +8,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
+comments: true
 baseurl: '/'
 domain_name: 'https://howicodestuff.github.io'
 plugins: [jekyll-paginate, jekyll-github-metadata]

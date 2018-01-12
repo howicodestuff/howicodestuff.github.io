@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 title: Home
 about: 'https://czonios.github.io'
 logo: './assets/images/logo.png'
@@ -56,7 +57,10 @@ cover: './assets/images/bg.jpg'
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
+            {% if post.comments %}
+            <a href="https://howicodestuff.github.io{{ post.url }}#disqus_thread">0 Comments</a>
+            {% endif %}
         </footer>
     </article>
 
