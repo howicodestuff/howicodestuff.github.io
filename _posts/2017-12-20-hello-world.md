@@ -17,20 +17,17 @@ This is my first post. I've decided to introduce myself and present what I'm goi
 #include <stdio.h>
 
 int main() {
-  char name[50];
-  char *me = name;
-  me = "Christos";
+  char name[50] = "Christos";
   printf("Hello World! I'm %s.\nWelcome to my blog!\n", me);
   return 0;
 }
 {% endhighlight %}
 
-... C is powerful and I love it, but very complicated if you want to do some simple things. It's so much easier in Python:
+... C is powerful and I love it, but somewhat complicated if you want to do some simple things. It's so much easier in Python:
 
 {% highlight python %}
   name = "Christos"
-  print("Hello World! I'm " + name)
-  print("Welcome to my blog!")
+  print("Hello World! I'm " + name + "\nWelcome to my blog!")
 {% endhighlight %}
 
 Anyway.
