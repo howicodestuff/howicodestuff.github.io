@@ -5,8 +5,8 @@
     <description>Walk through coding with me</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jan 2018 15:17:32 +0200</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2018 15:17:32 +0200</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 15:52:59 +0200</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 15:52:59 +0200</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
@@ -152,7 +152,8 @@ That roadmap changed quite a bit according to new technologies I discovered, but
         <title>Hello World!</title>
         <description>&lt;p&gt;This is my first post. I’ve decided to introduce myself and present what I’m going to talk about in this blog.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/profile.png&quot; alt=&quot;This is me&quot; /&gt;&lt;em&gt;a cartoon depiction of my face when I’m trying to figure something out&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/hello-world/profile.png&quot; alt=&quot;This is me&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;a cartoon depiction of my face when I'm trying to figure something out&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
 &lt;/span&gt;
@@ -183,6 +184,13 @@ That roadmap changed quite a bit according to new technologies I discovered, but
 &lt;p&gt;&lt;a href=&quot;https://github.com/czonios&quot;&gt;Github @czonios&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://czonios.github.io&quot;&gt;Portfolio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bonus for making it this far:&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/post-images/hello-world/image1.jpg&quot; alt=&quot;This is me playing guitar&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;a non-cartoon depiction of my face&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/hello-world/image2.jpg&quot; alt=&quot;This is me irl&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;small&gt;&lt;i&gt;another non-cartoon depiction of my face&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;a&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Dec 2017 18:40:00 +0200</pubDate>
         <link>http://localhost:4000//general/2017/12/20/hello-world.html</link>
