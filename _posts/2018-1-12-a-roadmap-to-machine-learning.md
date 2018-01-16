@@ -6,7 +6,6 @@ comments: true
 categories: Machine-Learning
 excerpt: "I couldn't find a good roadmap to machine learning, so I did some research and created my own."
 cover: '/assets/images/post-images/roadmap-to-machine-learning/roadmap-to-machine-learning.jpg'
-
 ---
 
 Up until a point in my life, I was learning stuff left and right aimlessly, and leaving the knowledge at an unfinished, quite frankly unusable level.
