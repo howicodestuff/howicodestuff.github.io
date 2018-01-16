@@ -9,14 +9,8 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% if page.post_class %}
-    <meta property="og:image" content="{{post.cover }}" />
-    <meta name="description" content="{{ post.excerpt }}" />   
-    {% else %}
-    <meta property="og:image" content="https://raw.githubusercontent.com/howicodestuff/howicodestuff.github.io/master/assets/images/preview.png" >
-    <meta name="description" content="{{ site.meta_description }}" />
-    {% endif %}
-        
+    <meta property="og:image" content="{% if page.post_class %}{{ site.siteurl }}/{{ post.cover }}{% else %}https://raw.githubusercontent.com/howicodestuff/howicodestuff.github.io/master/assets/images/preview.png{% endif %}" />
+    <meta name="description" content="{% if page.post_class %}{{ post.excerpt }}{% else %}{{ site.meta_description }}{% endif %}" />         
 
     <!-- favicon -->
     <link rel="icon" type="image/jpeg" href="/assets/images/favicon.jpeg" sizes="16x16">
