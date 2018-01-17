@@ -31,7 +31,7 @@ Vim (Vi IMproved) is a renewed edition of Vi, which provides functionality unmat
 <a id="why"></a>
 ### Why would I use Vim?
 
-There is no generic answer to this question. After all, you'll be fine never learing how to use Vim at all - you can make do with other tools. For some people however, it's their most important tool for being as productive as they can be. Some of the reasons to get into Vim are presented below:
+There is no generic answer to this question. After all, you'll be fine never learing how to use Vim at all - you can make do with other tools. For some people however, its their most important tool for being as productive as they can be. Some of the reasons to get into Vim are presented below:
 
 * **Lightweight**
 	* You will be able to use it with any system, file or project, in contrast with resource-heavy text editors like Visual Studio or Atom, and IDEs like Eclipse or Intellij products, which might choke under the pressure of huge files or projects.
@@ -40,7 +40,7 @@ There is no generic answer to this question. After all, you'll be fine never lea
 	* If you ever get into working with servers, you'll quickly find out that Vi or Vim are almost always already in the list of installed software.
 
 * **Poductive**
-	* Vim has the philosophy of a language - it's commands have verbs, nouns and adjectives which can be chained together in infinite combinations. For example, the command `d3w` (delete 3 words) is comprised of 3 different parts. The `ci"` command(change inside ") will delete the text inside the " " your cursor is in and put you in insert mode so you can write in there. Vim also provides a very useful tree representation for the redo (`CTRL+R`) and undo (`u` and others)  commands, a multitude of registers for copy (`y` - yank) and cut commands - you can paste from many different clipboards, which arms you with a lot of functionality - and it can execute bash commands and show you their output, which you can optionally insert into your file.
+	* Vim has the philosophy of a language - its commands have verbs, nouns and adjectives which can be chained together in infinite combinations. For example, the command `d3w` (delete 3 words) is comprised of 3 different parts. The `ci"` command(change inside ") will delete the text inside the " " your cursor is in and put you in insert mode so you can write in there. Vim also provides a very useful tree representation for the redo (`CTRL+R`) and undo (`u` and others)  commands, a multitude of registers for copy (`y` - yank) and cut commands - you can paste from many different clipboards, which arms you with a lot of functionality - and it can execute bash commands and show you their output, which you can optionally insert into your file.
 
 * **Ergonomic**
 	* Vim's philosophy distances you from use of the mouse, and encourages movement by using the keyboard, making it faster and healthier for the wrists, eyes and tendons.
@@ -48,13 +48,13 @@ There is no generic answer to this question. After all, you'll be fine never lea
 * **Fun**
 	* Vim is just really, really interesting, and everything new you get to learn about it gives you a feeling of satisfaction, in the neverending process of discovering new ways of doing old things faster and better.
 
-* **FOSS**
-	* Vim's licence is GPL-compatible, and anyone can view and contribute to it's source code. This means that thanks to it's enormous number of users, it never stops evolving.
+* **FOSS (Free and Open Source Software)**
+	* Vim's licence is GPL-compatible, and anyone can view and contribute to its source code. This means that thanks to its enormous number of users, it never stops evolving.
 
 * **Configurable**
 	* You can very easily configure Vim to exactly your liking, more so than any other editor available. It's very common for each user to have their own config files and copy them to each machine they use. Many of us post our configs online, usually called "dotfiles".
 
-In this article we won't get into great detail on Vim's abilities, but we will explore it's basic usage for editing a file. Students, web developers, Linux, MacOS and other \*Nix users often tend to need it in order to change a remote file or edit a file as administrator.
+In this article we won't get into great detail on Vim's abilities, but we will explore its basic usage for editing a file. Students, web developers, Linux, MacOS and other \*Nix users often tend to need it in order to change a remote file or edit a file as administrator.
 
 <a id="open"></a>
 ### Opening a File for Editing
@@ -151,7 +151,7 @@ vimtutor
 
 Vim is a really useful tool that provides us with unmatched productivity, ergonomy and above all, is fun to use and configurable to any person's needs.
 
-In this article we went through some of it's basic usage, such as changing text, searching and saving. In the future I will add a series of articles where we can explore Vim's abilities in depth.
+In this article we went through some of its basic usage, such as changing text, searching and saving. In the future I will add a series of articles where we can explore Vim's abilities in depth.
 
 \**I wrote the Greek version of this article for the IEEE University of Ioannina Student Branch. You can check it out [here](http://ieeesb.uoi.gr/?p=2237).*
 <!--stackedit_data:
