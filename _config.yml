@@ -3,6 +3,7 @@ name: How I Code Stuff
 title: How I Code Stuff
 description: Walk through coding with me
 meta_description: "Web Application Development, Machine Learning, IoT, Linux and fun!"
+google_analytics: UA-112579131-1
 
 markdown: kramdown
 highlighter: rouge
