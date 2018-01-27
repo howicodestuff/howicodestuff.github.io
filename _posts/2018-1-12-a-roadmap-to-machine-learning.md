@@ -38,28 +38,39 @@ Get yourself set up with a notebook, a pen or pencil, and a mandatory cup of cof
 
 You can get around using machine learning libraries and doing some data science even if you don't have a strong foundation in math, however you probably won't get very far without it. If you don't, this roadmap includes a couple links to math courses when you'll actually need them later on. **By the end, you should be familiar with:**
 
-* Calculus (vectors, integration, finding maxima/minima of a function)
-* Linear Algebra (matrices, matrix multiplication, vector spaces)
-* Statistics (distributions, standard deviations, probability density)
-* Python (not math, but a prerequisite nonetheless)
+* **Calculus**: computational math (integration, derivatives), optimization (finding maxima/minima of a function)
+* **Linear Algebra**: vectors, matrices, matrix multiplication, vector spaces
+* **Statistics**: probability, random variables, distributions (Gaussian, mixture models etc.), standard deviations, probability density
+* **Python** (not math, but a prerequisite nonetheless)
     - You can use other languages but Python is the easiest to learn. Below are two great, free courses.
         - [Introduction to Python (Udacity course)](https://www.udacity.com/course/introduction-to-python--ud1110)
         - [Learn Python (Codecademy course)](https://www.codecademy.com/learn/learn-python)
 
 ### Step 1: Environment
 
-The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. **Strictly speaking, we only need Python** (and that's what I've been using until now) but having specialized tools sometimes makes us more productive.
+The first thing is to set up our environment so we can actually run the algorithms and programs on our computer. **Strictly speaking, we only need Python and whichever libraries we choose to use** (and that's what I've been using until now) but having specialized tools sometimes makes us more productive.
 
 * Install Python/pip
-    - Python and it's package manager, pip, are really all we need. The first course uses Python 2.7, but we will probably be better off installing Python 3.x as well later on.
+  1. Python libraries for math and graph plotting:
+      1. [SciPy](https://www.scipy.org/) used for scientific calculations by scientists and engineers
+      2. [NumPy](http://www.numpy.org/) used for linear algebra operations, Fourier transforms, random number generation etc.
+      3. [Pandas](http://pandas.pydata.org/) used for data structures and data analysis tools
+      4. [MatPlotLib](https://matplotlib.org/) used for plotting our data so we can gain insight on its structure
+  2. Python libraries for machine learning:
+      1. [Scikit-Learn (or sklearn)](http://scikit-learn.org/stable/index.html) Easy to use machine learning library
+      2. [Tensorflow](https://www.tensorflow.org/) Google's machine learning library
+      3. [PyTorch](http://pytorch.org/) Deep Learning framework
+      4. [Theano](http://www.deeplearning.net/software/theano/) library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. 
+      5. [Keras](https://keras.io/) Deep Learning library that runs on top of Tensorflow or Theano
+
 * Learn how to use IPython
 * Learn how Jupyter Notebooks work
 * Install Anaconda and learn how to use it
     - Anaconda and it's package manager, conda, is a distribution of Python specialized for machine learning and data science.
 
-### Step 2: Classrom - Basics
+### Step 2: Classroom - Basics
 
-In this step, we'll **focus on learning the basics of machine learning**. We need to learn what it is, where it's used, what different types of machine learning exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. **I recommend you pick both a book and a course.**
+In this step, we'll **focus on learning the basics of machine learning**. We need to learn what it is, where it's used, what different types of machine learning algorithms and techniques exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. **I recommend you pick both a book and a course.**
 
 * [Intro to Machine Learning (Udacity course)](https://www.udacity.com/course/intro-to-machine-learning--ud120)
     - This course is the standard one you should follow if you're not really strong with math.
@@ -68,6 +79,9 @@ In this step, we'll **focus on learning the basics of machine learning**. We nee
 
 * [Andrew Ng's Course on Machine Learning (Coursera course)](https://www.coursera.org/learn/machine-learning)
     - If you are already familiar with the math from step 0, then this is the all-around best course since it goes deeper in the math and is taught by one of the field's best researchers.
+
+* [Data Camp](https://www.datacamp.com/)
+    - This is a website with a lot of different courses in things like Python, math in Python, visualizing data, statistics, machine learning and supervised learning. It's a good alternative to the others, but you have to pick the courses or paths yourself and that's not always ideal.
 
     *course &uarr;*
     <br>
@@ -82,6 +96,9 @@ In this step, we'll **focus on learning the basics of machine learning**. We nee
 
 * [Elements of Statistical Learning (Free ebook)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
     - This book is free, it's from Stanford and it includes a whole lot of information on machine learning. While not as practical as the first one, it goes a lot deeper on the concepts and math behind machine learning and data science.
+
+* [Pattern Recognition and Machine Learning by Christopher Bishop](http://www.springer.com/us/book/9780387310732)
+    - This is the machine learning bible, and it is not free. However, I could not leave it out of this list since it paved the way for machine learning.
 
 
 ### Step 3: Get Your Feet Wet (Project #1)
@@ -106,7 +123,7 @@ We now have a really good understanding of machine learning, but if we don't pra
 
 ### Step 6: One Step Further
 
-We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, **deep learning**. This will have to be a roadmap in itself, but for now, I'll add a couple of links.
+We can stop there, or we can move on to the very specialized area of machine learning that is slowly taking the world by storm, **Deep Learning**. This field of machine learning is very prevalent today, due to the incredible success story of Computer Vision and the ability to work with raw data. This will have to be a roadmap in itself, but for now, I'll add a couple of links.
 
 * [Deep Learning (Udacity course)](https://www.udacity.com/course/deep-learning--ud730)
 * [Deep Learning (Coursera course by Andrew Ng)](https://www.deeplearning.ai/)
