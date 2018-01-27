@@ -80,6 +80,8 @@ In this step, we'll **focus on learning the basics of machine learning**. We nee
 * [Andrew Ng's Course on Machine Learning (Coursera course)](https://www.coursera.org/learn/machine-learning)
     - If you are already familiar with the math from step 0, then this is the all-around best course since it goes deeper in the math and is taught by one of the field's best researchers.
 
+    *or*
+
 * [Data Camp](https://www.datacamp.com/)
     - This is a website with a lot of different courses in things like Python, math in Python, visualizing data, statistics, machine learning and supervised learning. It's a good alternative to the others, but you have to pick the courses or paths yourself and that's not always ideal.
 
@@ -96,6 +98,8 @@ In this step, we'll **focus on learning the basics of machine learning**. We nee
 
 * [Elements of Statistical Learning (Free ebook)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
     - This book is free, it's from Stanford and it includes a whole lot of information on machine learning. While not as practical as the first one, it goes a lot deeper on the concepts and math behind machine learning and data science.
+
+    *or*
 
 * [Pattern Recognition and Machine Learning by Christopher Bishop](http://www.springer.com/us/book/9780387310732)
     - This is the machine learning bible, and it is not free. However, I could not leave it out of this list since it paved the way for machine learning.
