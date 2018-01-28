@@ -70,7 +70,10 @@ The first thing is to set up our environment so we can actually run the algorith
 
 ### Step 2: Classroom - Basics
 
-In this step, we'll **focus on learning the basics of machine learning**. We need to learn what it is, where it's used, what different types of machine learning algorithms and techniques exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. **I recommend you pick both a book and a course.**
+In this step, we'll **focus on learning the basics of machine learning**. We need to learn what it is, where it's used, what different types of machine learning algorithms and techniques exist, and get familiar with some of the major algorithms and working with data. You should get a good feel for how good, usable data is structured after finishing either of these courses and/or books. **I recommend you pick both a book and a course.** 
+
+*Disclaimer: The last two books assume you already have some considerable knowledge of Linear Algebra, basic Calculus, and Probability/Statistics. You can still pick them, and go through them slowly over the course of your learning. You can go deeper after you've done some math courses!*
+
 
 * [Intro to Machine Learning (Udacity course)](https://www.udacity.com/course/intro-to-machine-learning--ud120)
     - This course is the standard one you should follow if you're not really strong with math.
@@ -85,14 +88,25 @@ In this step, we'll **focus on learning the basics of machine learning**. We nee
 * [Data Camp](https://www.datacamp.com/)
     - This is a website with a lot of different courses in things like Python, math in Python, visualizing data, statistics, machine learning and supervised learning. It's a good alternative to the others, but you have to pick the courses or paths yourself and that's not always ideal.
 
+
     *course &uarr;*
     <br>
     **and**
     <br>
     *book &darr;*
 
-* [Python Machine Learning (Book)](https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1787125939)
+* [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1787125939)
     - This book is not free, however I see it strongly recommended and having bought it, I can say it's a great practical book and I've found that reading a book cover-to-cover on a particular subject gives you in-depth knowledge of aforementioned subject. You'll also always have it laying around for quick reference.
+
+    *or*
+
+* [Introduction to Statistical Learning (Free ebook)](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf)
+    - This free ebook is written in the same vein as Elements of Statistical Learning (see below), but focuses a lot less on math and more on applications. However, the applications in this book are in the language R instead of Python.
+
+    *or*
+
+* [Machine Learning: A Probabilistic Perspective](https://mitpress.mit.edu/books/machine-learning-0)
+    - This book will teach you the math you need in order to understand it, and it's a solid choice. However, it is not free.
 
     *or*
 
@@ -131,5 +145,6 @@ We can stop there, or we can move on to the very specialized area of machine lea
 
 * [Deep Learning (Udacity course)](https://www.udacity.com/course/deep-learning--ud730)
 * [Deep Learning (Coursera course by Andrew Ng)](https://www.deeplearning.ai/)
+* [Deep Learning (Book)](http://www.deeplearningbook.org/)
 
 So there you have it. I wish you the best in this journey, and happy new year!
