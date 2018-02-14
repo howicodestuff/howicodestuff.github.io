@@ -10,8 +10,8 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:image" content="{% if page.layout == 'post' %}{{ site.siteurl }}{{ page.cover }}{% else %}https://raw.githubusercontent.com/howicodestuff/howicodestuff.github.io/master/assets/images/preview.png{% endif %}" />
-    <meta property="og:title" content="{% if page.layout == 'post' %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="description" content="{% if page.layout == 'post' %}{{ page.excerpt }}{% else %}{{ site.meta_description }}{% endif %}" />         
+    <meta property="og:title" content="{% if page.layout == 'post' %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="description" content="{% if page.layout == 'post' %}{{ page.excerpt }}{% else %}{{ site.meta_description }}{% endif %}" />
 
     <!-- analytics -->
 
@@ -34,11 +34,11 @@
     {{ content }}
     <footer class="site-footer clearfix">
       <section class="copyright">
-        <a href="{{site.baseurl}}">{{ site.name }}</a> &copy; 
+        <a href="{{site.baseurl}}">{{ site.name }}</a> &copy;
               {{"now" | date: "%Y"}} &bull; All rights reserved.
       </section>
     </footer>
-    
+
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="/assets/js/index.js"></script>
@@ -57,6 +57,6 @@
       })();
 
     </script>
-    <script id="dsq-count-scr" src="//howicodestuff.disqus.com/count.js" async></script>   
+    <script id="dsq-count-scr" src="//howicodestuff.disqus.com/count.js" async></script>
 </body>
 </html>
