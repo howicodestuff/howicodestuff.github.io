@@ -16,8 +16,7 @@ cover: '/assets/images/post-images/convolution/convolution.jpg'
 5. [Signals and Systems](#systems)
 6. [Where Do We Use Convolution?](#where)
 7. [Calculating Convolutions](#calculating)
-8. [Examples](#examples)
-9. [Synopsis](#synopsis)
+8. [Synopsis](#synopsis)
 
 <a id="intro"></a>
 
@@ -112,6 +111,8 @@ It's also the base of Convolutional Neural Networks (CNNs), which are a big part
 
 ### Calculating Convolutions
 
+There are better guides and more qualified people on the internet that can teach you how to calculate convolutions, and you should look it up if you work a lot with signal processing. For the purposes of this guide, a high level overview of how it's done is enough, as you are likely to use an external library or other tool for the actual calculation process. I still feel, however, that a solid understanding is essential to minimize mistakes and half-assed learning of the fields you might use convolutions in.
+
 We calculate the convolution of two signals as such:
 
 $$
@@ -138,10 +139,6 @@ $$ \equiv $$
 $$
 h(t) * x(t)=\int_{-\infty}^{+\infty} h(\tau) x(t-\tau) d\tau
 $$
-
-<a id="examples"></a>
-
-### Examples
 
 <a id="synopsis"></a>
 
