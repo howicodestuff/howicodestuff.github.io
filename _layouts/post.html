@@ -86,6 +86,10 @@ post_class: post-template
                 {% include disqus.html %}
             {% endif %}
 
+            {% if page.math %}
+                {% include mathjax.html %}
+            {% endif %}
+
         </footer>
 
     </article>
