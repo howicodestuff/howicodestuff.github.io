@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is a convolution?"
-date:   2018-8-1 13:00:00
+date:   2018-8-8 13:00:00
 comments: true
 math: true
 categories: Machine_Learning Theory
