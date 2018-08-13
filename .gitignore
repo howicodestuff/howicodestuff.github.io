@@ -1,3 +1,4 @@
 serve.sh
 build.sh
-_site
+_site/
+.sass-cache/
