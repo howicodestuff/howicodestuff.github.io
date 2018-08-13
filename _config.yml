@@ -13,7 +13,9 @@ comments: true
 siteurl: https://howicodestuff.github.io
 baseurl: '/'
 domain_name: 'https://howicodestuff.github.io'
-plugins: [jekyll-paginate, jekyll-github-metadata]
+gems:
+  - jekyll-paginate
+  - jekyll-github-metadata
 
 # Details for the RSS feed generator
 url: 'https://howicodestuff.github.io/blog'
